@@ -5,6 +5,7 @@
 + 文献の概要欄に新たなタグを追加する場合は`blog-brief.html`に記述
 -----
 # ビルドについて
+1. `workspace`ディレクトリに移動
 1. `hugo --cleanDestinationDir`を実行
 1. docsの中身を全削除(古いファイルは全部消す)
 1. publicの中身を全部コピーしてdocsへペースト

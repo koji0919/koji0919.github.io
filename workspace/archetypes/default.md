@@ -1,6 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+auther: hoge
+# description: hogehoge
+paperPublished: Jan 2,2018
 ---
 
