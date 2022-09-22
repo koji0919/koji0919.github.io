@@ -4,7 +4,7 @@
 <head><title>
     Math Typesetting | 
     
-    ほげほげ</title>
+    文献まとめ</title>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -62,7 +62,7 @@
   <div class="navbar-brand">
     <a class="navbar-item" href=/>
       
-      <strong>ほげほげ </strong>
+      <strong>文献まとめ </strong>
       
     </a>
 
@@ -78,26 +78,26 @@
     <div class="navbar-start">
       
       
-      <a class="navbar-item" href="/">Home</a>
+      <a class="navbar-item" href="/">ホーム</a>
       
       
       
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">This Blog</a>
+        <a class="navbar-link">投稿を検索</a>
         <div class="navbar-dropdown">
           
-          <a class="navbar-item" href="/tags/">All Tags</a>
+          <a class="navbar-item" href="/tags/">タグから探す</a>
           
-          <a class="navbar-item" href="/sections/">All Sections</a>
+          <a class="navbar-item" href="/sections/">セクションから探す</a>
           
-          <a class="navbar-item" href="/posts/">All Posts</a>
+          <a class="navbar-item" href="/posts/">一覧</a>
           
         </div>
       </div>
       
       
       
-      <a class="navbar-item" href="/author/">Author</a>
+      <a class="navbar-item" href="/author/">このサイトについて</a>
       
       
     </div>
@@ -124,7 +124,7 @@
             <div class="level-item">
                 <p class="subtitle info date">
                     Posted by  
-                     @Apr 12, 2020
+                    1988 @Apr 12, 2020
                 </p>
             </div>
             
@@ -157,10 +157,10 @@
         
 
         <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
-<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+<p>In this example we will be using <a href="https://katex.org/" target="_blank">KaTeX</a></p>
 <ul>
 <li>Create a partial under <code>/layouts/partials/math.html</code></li>
-<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html" target="_blank">Auto-render Extension</a> or host these scripts locally.</li>
 <li>Include the partial in your templates like so:</li>
 </ul>
 <pre tabindex="0"><code>{{ if or .Params.math .Site.Params.math }}
@@ -170,7 +170,7 @@
 <li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
 <li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files.</li>
 </ul>
-<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html" target="_blank">Supported TeX Functions</a>
 </p>
 <h3 id="examples">Examples</h3>
 <p>Inline math: $$ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $$</p>

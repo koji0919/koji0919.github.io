@@ -1,18 +1,99 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ほげほげ</title>
+    <title>Tags on 文献まとめ</title>
     <link>https://koji0919.github.io/tags/</link>
-    <description>Recent content in Tags on ほげほげ</description>
+    <description>Recent content in Tags on 文献まとめ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://koji0919.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Sep 2022 21:35:07 +0900</lastBuildDate><atom:link href="https://koji0919.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>css</title>
-      <link>https://koji0919.github.io/tags/css/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <title>体外衝撃療法</title>
+      <link>https://koji0919.github.io/tags/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95/</link>
+      <pubDate>Thu, 22 Sep 2022 21:35:07 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/css/</guid>
+      <guid>https://koji0919.github.io/tags/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>肘関節</title>
+      <link>https://koji0919.github.io/tags/%E8%82%98%E9%96%A2%E7%AF%80/</link>
+      <pubDate>Thu, 22 Sep 2022 21:35:07 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/%E8%82%98%E9%96%A2%E7%AF%80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>野球</title>
+      <link>https://koji0919.github.io/tags/%E9%87%8E%E7%90%83/</link>
+      <pubDate>Thu, 22 Sep 2022 21:35:07 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/%E9%87%8E%E7%90%83/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VAS</title>
+      <link>https://koji0919.github.io/tags/vas/</link>
+      <pubDate>Thu, 22 Sep 2022 21:20:17 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/vas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>アメフト</title>
+      <link>https://koji0919.github.io/tags/%E3%82%A2%E3%83%A1%E3%83%95%E3%83%88/</link>
+      <pubDate>Thu, 22 Sep 2022 21:20:17 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/%E3%82%A2%E3%83%A1%E3%83%95%E3%83%88/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>外衝撃療法</title>
+      <link>https://koji0919.github.io/tags/%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95/</link>
+      <pubDate>Thu, 22 Sep 2022 21:20:17 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>筋電位</title>
+      <link>https://koji0919.github.io/tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D/</link>
+      <pubDate>Thu, 22 Sep 2022 20:41:35 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>肩関節</title>
+      <link>https://koji0919.github.io/tags/%E8%82%A9%E9%96%A2%E7%AF%80/</link>
+      <pubDate>Thu, 22 Sep 2022 20:41:35 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/%E8%82%A9%E9%96%A2%E7%AF%80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>体幹</title>
+      <link>https://koji0919.github.io/tags/%E4%BD%93%E5%B9%B9/</link>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/%E4%BD%93%E5%B9%B9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>脊柱起立筋</title>
+      <link>https://koji0919.github.io/tags/%E8%84%8A%E6%9F%B1%E8%B5%B7%E7%AB%8B%E7%AD%8B/</link>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/%E8%84%8A%E6%9F%B1%E8%B5%B7%E7%AB%8B%E7%AD%8B/</guid>
       <description></description>
     </item>
     
@@ -26,38 +107,11 @@
     </item>
     
     <item>
-      <title>html</title>
-      <link>https://koji0919.github.io/tags/html/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://koji0919.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>markdown</title>
       <link>https://koji0919.github.io/tags/markdown/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://koji0919.github.io/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://koji0919.github.io/tags/themes/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://koji0919.github.io/tags/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>怪文書</title>
-      <link>https://koji0919.github.io/tags/%E6%80%AA%E6%96%87%E6%9B%B8/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://koji0919.github.io/tags/%E6%80%AA%E6%96%87%E6%9B%B8/</guid>
       <description></description>
     </item>
     
@@ -67,24 +121,6 @@
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://koji0919.github.io/tags/text/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>https://koji0919.github.io/tags/privacy/</link>
-      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://koji0919.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>https://koji0919.github.io/tags/shortcodes/</link>
-      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://koji0919.github.io/tags/shortcodes/</guid>
       <description></description>
     </item>
     

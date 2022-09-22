@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Addons on ほげほげ</title>
+    <title>Addons on 文献まとめ</title>
     <link>https://koji0919.github.io/addons/</link>
-    <description>Recent content in Addons on ほげほげ</description>
+    <description>Recent content in Addons on 文献まとめ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 06 Apr 2020 02:07:31 +0600</lastBuildDate><atom:link href="https://koji0919.github.io/addons/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Author</title>
+      <title>このサイトについて</title>
       <link>https://koji0919.github.io/author/</link>
       <pubDate>Mon, 06 Apr 2020 02:07:31 +0600</pubDate>
       
       <guid>https://koji0919.github.io/author/</guid>
-      <description>I am John Doe. And I can confirm that this is the best theme ever!</description>
+      <description>本サイトはリハビリテーションに関する文献の概要とpdfリンクをまとめています。ご意見、ご要望は下記まで。
+yasuda_kodai@sakaimed.co.jp</description>
     </item>
     
     <item>
@@ -26,7 +27,7 @@
     </item>
     
     <item>
-      <title>All Sections</title>
+      <title>製品</title>
       <link>https://koji0919.github.io/sections/</link>
       <pubDate>Mon, 06 Apr 2020 02:07:30 +0600</pubDate>
       
