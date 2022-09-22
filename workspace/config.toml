@@ -4,7 +4,7 @@ baseurl = 'https://koji0919.github.io/'
 languageCode = 'ja-jp'
 theme = "ramium"
 
-title = "ほげほげ"
+title = "文献まとめ"
 disqusShortname = ""
 googleAnalytics = ""
 summaryLength = 140
@@ -32,31 +32,31 @@ enableemoji = false
 
 [menu]
     [[menu.main]]
-        name = "Home"
+        name = "ホーム"
         url = "/"
         weight = 1
 
     [[menu.main]]
-        identifier = "blog"
-        name = "This Blog"
+        identifier = "投稿"
+        name = "投稿を検索"
         weight = 2
             [[menu.main]]
-                parent = "blog"
-                name = "All Tags"
+                parent = "投稿"
+                name = "タグから探す"
                 url = "/tags/"
                 weight = 1
             [[menu.main]]
-                parent = "blog"
-                name = "All Sections"
+                parent = "投稿"
+                name = "セクションから探す"
                 url = "/sections/"
                 weight = 2
             [[menu.main]]
-                parent = "blog"
-                name = "All Posts"
+                parent = "投稿"
+                name = "一覧"
                 url = "/posts/"
                 weight = 3
     
     [[menu.main]]
-        name = "Author"
+        name = "このサイトについて"
         url = "/author/"
         weight = 3

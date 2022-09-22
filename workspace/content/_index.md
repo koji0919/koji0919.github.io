@@ -1,6 +1,6 @@
 ---
-title: "Ramium Theme"
-subtitle: "A modern hugo theme for awesome blogs"
+title: "文献まとめ"
+subtitle: "概要・リンク等をまとめています"
 date: 2020-03-25T04:52:30+06:00
 draft: false
 ---

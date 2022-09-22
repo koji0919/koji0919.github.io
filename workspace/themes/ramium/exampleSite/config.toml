@@ -37,7 +37,7 @@ enableemoji = false
         weight = 1
 
     [[menu.main]]
-        identifier = "blog"
+        identifier = "投稿"
         name = "This Blog"
         weight = 2
             [[menu.main]]
