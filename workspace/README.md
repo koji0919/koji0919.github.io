@@ -7,6 +7,6 @@
 # ビルドについて
 1. `workspace`ディレクトリに移動
 1. `hugo --cleanDestinationDir`を実行
-1. docsの中身を全削除(古いファイルは全部消す)
-1. publicの中身を全部コピーしてdocsへペースト
+1. docsの中身を全削除(古いファイルは全部消す)(`rm ..\docs\*`  )
+1. publicの中身を全部コピーしてdocsへペースト(`cp -R .\public\* ..\docs`)
 1. githubへアップロード
