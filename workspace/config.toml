@@ -61,3 +61,6 @@ enableRobotsTXT = true
         name = "このサイトについて"
         url = "/author/"
         weight = 3
+
+    [outputs]
+        home = ["html", "rss", "json"]

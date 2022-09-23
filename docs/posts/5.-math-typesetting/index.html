@@ -15,19 +15,22 @@
 <meta property="og:title" content="Math Typesetting" />
 <meta property="og:description" content="A brief guide to setup KaTeX" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://koji0919.github.io/posts/5.-math-typesetting/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://koji0919.github.io/posts/5.-math-typesetting/" />
 <meta property="article:published_time" content="2020-04-12T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-04-12T00:00:00+00:00" />
-
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Math Typesetting"/>
 <meta name="twitter:description" content="A brief guide to setup KaTeX"/>
 
 <meta itemprop="name" content="Math Typesetting">
-<meta itemprop="description" content="A brief guide to setup KaTeX"><meta itemprop="datePublished" content="2020-04-12T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-04-12T00:00:00+00:00" />
+<meta itemprop="description" content="A brief guide to setup KaTeX">
+<meta itemprop="datePublished" content="2020-04-12T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-04-12T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="122">
+
+
+
 <meta itemprop="keywords" content="math,markdown,Katex," />
 <link rel="canonical" href="https://koji0919.github.io/posts/5.-math-typesetting/" />
 
@@ -163,8 +166,8 @@
 <li>Within this partial reference the <a href="https://katex.org/docs/autorender.html" target="_blank">Auto-render Extension</a> or host these scripts locally.</li>
 <li>Include the partial in your templates like so:</li>
 </ul>
-<pre tabindex="0"><code>{{ if or .Params.math .Site.Params.math }}
-{{ partial &#34;math.html&#34; . }}
+<pre><code>{{ if or .Params.math .Site.Params.math }}
+{{ partial &quot;math.html&quot; . }}
 {{ end }}
 </code></pre><ul>
 <li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
