@@ -1,0 +1,85 @@
+User-agent: *
+
+Disallow: /tags/
+
+Disallow: /%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/
+
+Disallow: /tags/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95/
+
+Disallow: /tags/%E8%82%98%E9%96%A2%E7%AF%80/
+
+Disallow: /tags/%E9%87%8E%E7%90%83/
+
+Disallow: /%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/%E9%87%8E%E7%90%83%E9%81%B8%E6%89%8B%E3%81%AE%E8%82%98%E9%A0%AD%E7%96%B2%E5%8A%B4%E9%AA%A8%E6%8A%98%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%AF%BE%E5%A4%96%E8%A1%9D%E6%92%83%E6%B3%A2%E6%B2%BB%E7%99%82%E6%B3%95%E3%81%AE%E6%B2%BB%E7%99%82%E7%B5%8C%E9%A8%93/
+
+Disallow: /tags/vas/
+
+Disallow: /tags/%E3%82%A2%E3%83%A1%E3%83%95%E3%83%88/
+
+Disallow: /%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E6%B3%A2%E7%99%82%E6%B3%95%E3%81%8C%E6%85%A2%E6%80%A7%E7%96%BC%E7%97%9B%E3%82%92%E6%9C%89%E3%81%99%E3%82%8B%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E9%81%B8%E6%89%8B%E3%81%AE%E7%96%BC%E7%97%9B%E9%96%BE%E5%80%A4%E3%81%AB%E5%8F%8A%E3%81%BC%E3%81%99%E5%BD%B1%E9%9F%BF/
+
+Disallow: /tags/%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95/
+
+Disallow: /%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0emg/
+
+Disallow: /tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D/
+
+Disallow: /tags/%E8%82%A9%E9%96%A2%E7%AF%80/
+
+Disallow: /%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0emg/%E9%87%8E%E7%90%83%E3%81%AE%E9%80%A3%E7%B6%9A%E6%8A%95%E7%90%83%E3%81%AB%E3%82%88%E3%82%8B%E8%82%A9%E9%96%A2%E7%AF%80%E5%A4%96%E6%97%8B%E7%AD%8B%E7%BE%A4%E3%81%AE%E7%AD%8B%E7%96%B2%E5%8A%B4/
+
+Disallow: /posts/hello/
+
+Disallow: /posts/
+
+Disallow: /tags/%E4%BD%93%E5%B9%B9/
+
+Disallow: /posts/3.-rich-content/
+
+Disallow: /tags/%E8%84%8A%E6%9F%B1%E8%B5%B7%E7%AB%8B%E7%AD%8B/
+
+Disallow: /tags/hoge/
+
+Disallow: /posts/1.-markdown-syntax/
+
+Disallow: /tags/markdown/
+
+Disallow: /posts/2.-placeholder-text/
+
+Disallow: /tags/text/
+
+Disallow: /tags/emoji/
+
+Disallow: /posts/4.-emoji-support/
+
+Disallow: /tags/katex/
+
+Disallow: /tags/math/
+
+Disallow: /posts/5.-math-typesetting/
+
+Disallow: /tags/chords/
+
+Disallow: /posts/6.-happy-birthday-chords/
+
+Disallow: /tags/music/
+
+Disallow: /addons/
+
+Disallow: /author/
+
+Disallow: /admin/
+
+Disallow: /sections/
+
+Disallow: /
+
+Disallow: /tags/ramium/
+
+Disallow: /%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%96%B9%E3%81%B8/1.-tutorial/
+
+Disallow: /%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%96%B9%E3%81%B8/
+
+Disallow: /%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0emg/2.-features-of-ramium/
+
+Disallow: /%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0emg/1.-about-ramium/

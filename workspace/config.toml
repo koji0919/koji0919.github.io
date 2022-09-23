@@ -10,6 +10,7 @@ googleAnalytics = ""
 summaryLength = 140
 pluralizeListTitles = false
 enableemoji = false
+enableRobotsTXT = true
 
 [params]
     description = "A description for the meta tag of the site"
