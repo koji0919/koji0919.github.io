@@ -6,7 +6,11 @@
     <description>Recent content in hoge on 文献まとめ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://koji0919.github.io/tags/hoge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koji0919.github.io/tags/hoge/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://koji0919.github.io/posts/1.-markdown-syntax/</link>
@@ -22,7 +26,7 @@
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://koji0919.github.io/posts/2.-placeholder-text/</guid>
-      <description>原本リンク </description>
+      <description>原本リンク  </description>
     </item>
     
   </channel>
