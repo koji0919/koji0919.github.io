@@ -4,7 +4,6 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 
-
 echo -e "\033[0;32mStart Build...\033[0m"
 cd workspace
 hugo --cleanDestinationDir
