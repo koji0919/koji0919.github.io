@@ -81,7 +81,3 @@ Disallow: /admin/
 Disallow: /sections/
 
 Disallow: /
-
-Disallow: /%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%96%B9%E3%81%B8/1.-tutorial/
-
-Disallow: /%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%96%B9%E3%81%B8/

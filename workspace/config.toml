@@ -22,6 +22,7 @@ enableRobotsTXT = true
 
     tagsInHome = 40
     # sectionsInHome = 5 
+    faviconImg = "image/ドクター.png"
     paginatePostsPerPage = 5
     paginateTagsPerPage = 6
 
