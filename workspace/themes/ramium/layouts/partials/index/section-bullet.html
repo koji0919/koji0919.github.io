@@ -10,12 +10,22 @@
                 <h1>製品一覧</h1>
             </a>
             <p class="tags-summary">
-                {{ range sort (first .Site.Params.SectionsInHome $randSections) "Title" }}
-                <a href="{{ .RelPermalink }}">
-                    <span class="tag is-dark is-large">
-                        {{ .Title | humanize | title }}
-                    </span>
-                </a>
+                {{ with .Site.Params.SectionsInHome}}
+                    {{ range sort (first . $randSections) "Title" }}
+                        <a href="{{ .RelPermalink }}">
+                            <span class="tag is-dark is-large">
+                                {{ .Title | humanize | title }}
+                            </span>
+                        </a>
+                    {{ end }}
+                {{ else }}
+                    {{ range sort $randSections "Title" }}
+                        <a href="{{ .RelPermalink }}">
+                            <span class="tag is-dark is-large">
+                                {{ .Title | humanize | title }}
+                            </span>
+                        </a>
+                    {{ end }}
                 {{ end }}
             </p>
         </div>

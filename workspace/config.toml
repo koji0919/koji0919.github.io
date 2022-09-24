@@ -21,7 +21,7 @@ enableRobotsTXT = true
     githubProfile = "rafed/ramium/"
 
     tagsInHome = 40
-    sectionsInHome = 5
+    # sectionsInHome = 5 
     paginatePostsPerPage = 5
     paginateTagsPerPage = 6
 

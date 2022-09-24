@@ -107,7 +107,7 @@
 <script src="js/lunr.multi.js"></script>
 <script src="https://koji0919.github.io/js/search.js"></script>
 
-<form class="full-text-search-form" action="/" onkeypress="search()">
+<form class="full-text-search-form" action="/" onkeyup="search()">
   <input id="search-query" placeholder="サイト内検索" name="query" autocomplete="off" search autofocus/>
 </form>
 
@@ -177,20 +177,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="columns is-centered has-text-centered">
     <div class="column is-10">
         <div class="content">
@@ -199,63 +185,9 @@
             </a>
             <p class="tags-summary">
                 
-                <a href="/tags/chords">
-                    <span class="tag is-dark is-large is-rounded">
-                        Chords
-                    </span>
-                </a>
-                
-                <a href="/tags/emoji">
-                    <span class="tag is-dark is-large is-rounded">
-                        Emoji
-                    </span>
-                </a>
-                
-                <a href="/tags/hoge">
-                    <span class="tag is-dark is-large is-rounded">
-                        Hoge
-                    </span>
-                </a>
-                
-                <a href="/tags/katex">
-                    <span class="tag is-dark is-large is-rounded">
-                        Katex
-                    </span>
-                </a>
-                
-                <a href="/tags/markdown">
-                    <span class="tag is-dark is-large is-rounded">
-                        Markdown
-                    </span>
-                </a>
-                
-                <a href="/tags/math">
-                    <span class="tag is-dark is-large is-rounded">
-                        Math
-                    </span>
-                </a>
-                
-                <a href="/tags/music">
-                    <span class="tag is-dark is-large is-rounded">
-                        Music
-                    </span>
-                </a>
-                
                 <a href="/tags/pms">
                     <span class="tag is-dark is-large is-rounded">
                         Pms
-                    </span>
-                </a>
-                
-                <a href="/tags/ramium">
-                    <span class="tag is-dark is-large is-rounded">
-                        Ramium
-                    </span>
-                </a>
-                
-                <a href="/tags/text">
-                    <span class="tag is-dark is-large is-rounded">
-                        Text
                     </span>
                 </a>
                 
@@ -283,6 +215,12 @@
                     </span>
                 </a>
                 
+                <a href="/tags/%E4%B8%8A%E8%85%95">
+                    <span class="tag is-dark is-large is-rounded">
+                        上腕
+                    </span>
+                </a>
+                
                 <a href="/tags/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95">
                     <span class="tag is-dark is-large is-rounded">
                         体外衝撃療法
@@ -304,6 +242,12 @@
                 <a href="/tags/%E5%A4%A7%E8%85%BF%E5%9B%9B%E9%A0%AD%E7%AD%8B">
                     <span class="tag is-dark is-large is-rounded">
                         大腿四頭筋
+                    </span>
+                </a>
+                
+                <a href="/tags/%E6%B8%A9%E7%86%B1%E7%99%82%E6%B3%95">
+                    <span class="tag is-dark is-large is-rounded">
+                        温熱療法
                     </span>
                 </a>
                 
@@ -375,35 +319,49 @@
             </a>
             <p class="tags-summary">
                 
-                <a href="/biodex/">
-                    <span class="tag is-dark is-large">
-                        B I O D E X
-                    </span>
-                </a>
-                
-                <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0emg/">
-                    <span class="tag is-dark is-large">
-                        ウルティウム E M G
-                    </span>
-                </a>
-                
-                <a href="/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/">
-                    <span class="tag is-dark is-large">
-                        ショックマスター
-                    </span>
-                </a>
-                
-                <a href="/%E3%83%91%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC/">
-                    <span class="tag is-dark is-large">
-                        パスリーダー
-                    </span>
-                </a>
-                
-                <a href="/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%96%B9%E3%81%B8/">
-                    <span class="tag is-dark is-large">
-                        初めての方へ
-                    </span>
-                </a>
+                    
+                        <a href="/biodex/">
+                            <span class="tag is-dark is-large">
+                                B I O D E X
+                            </span>
+                        </a>
+                    
+                        <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0emg/">
+                            <span class="tag is-dark is-large">
+                                ウルティウム E M G
+                            </span>
+                        </a>
+                    
+                        <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0fb/">
+                            <span class="tag is-dark is-large">
+                                ウルティウム F B
+                            </span>
+                        </a>
+                    
+                        <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/">
+                            <span class="tag is-dark is-large">
+                                ウルティウムモーション
+                            </span>
+                        </a>
+                    
+                        <a href="/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/">
+                            <span class="tag is-dark is-large">
+                                ショックマスター
+                            </span>
+                        </a>
+                    
+                        <a href="/%E3%83%91%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC/">
+                            <span class="tag is-dark is-large">
+                                パスリーダー
+                            </span>
+                        </a>
+                    
+                        <a href="/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%96%B9%E3%81%B8/">
+                            <span class="tag is-dark is-large">
+                                初めての方へ
+                            </span>
+                        </a>
+                    
                 
             </p>
         </div>
@@ -420,6 +378,175 @@
             </a>
         </div>
         <div class="blog-brief">
+    <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0fb/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%8C%BB%E7%99%82%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%90%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%E3%81%AE%E5%BF%9C%E7%94%A8/">
+        <h3 class="title is-4">
+            リハビリテーション医療におけるバイオフィードバックの応用
+        </h3>
+    </a>
+
+    <div class="level is-mobile details">
+        <div class="level-left">
+
+            
+            <div class="level-item">
+                <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0fb/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%8C%BB%E7%99%82%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%90%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%E3%81%AE%E5%BF%9C%E7%94%A8/">
+                    <p class="subtitle info date">
+                        著者:  
+                        辻下守弘
+                        発行日:
+                        Jan 2,2018
+                    </p>
+                </a>
+            </div>
+            
+
+        </div>
+        
+        <div class="level-right is-hidden-touch">
+            
+        </div>
+    </div>
+
+    <div>
+        
+
+        <div>
+            <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0fb/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%8C%BB%E7%99%82%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%90%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%E3%81%AE%E5%BF%9C%E7%94%A8/">
+                <p class="summary">
+                    バイオフィードバック（biofeedback：BF）とは，通常 意識できない筋活動や心拍などの生体情報を光や音など の意識しやすい情報に変換して人に提示し，人がその情 報を意識しながら身体の状態をコントロールする治療法 である。リハにおける表面筋電図はBFの一つであり、筋活動の促通・抑制のトレーニングに用いられる。臨床においては機能障害に陥った筋の再教育に使用されることが非常に多い。例として弛緩性麻痺や痙性麻痺筋に対してはその効果の高さから標準的な治療方法となっている。運動学習においてもBFは用いられており、促通目的では下腿の筋や、骨盤底筋群などの筋の活動をモニタリングしながらのトレーニングが実施されている。抑制目的では（dysponesis）と呼ばれる筋肉の持続する過緊張状態により生じる疼痛の治療に用いられている
+BFは、患者自身が意欲と注意力を高めながらセルフトレーニングを実施できる。近年ではセンサやハード等の性能向上によりBFの為の環境が整った状況である。
+                    
+                </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="level is-mobile continue-reading">
+        <div class="level-left">
+        </div>
+        <div class="level-right">
+            <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0fb/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%8C%BB%E7%99%82%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%90%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%E3%81%AE%E5%BF%9C%E7%94%A8/">Continue reading <i class="fa fa-angle-double-right"
+                    aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <hr>
+</div><div class="blog-brief">
+    <a href="/biodex/%E3%83%9B%E3%83%83%E3%83%88%E3%83%91%E3%83%83%E3%82%AF%E6%B8%A9%E7%86%B1%E5%88%BA%E6%BF%80%E3%81%8C%E7%AD%89%E9%80%9F%E6%80%A7%E9%81%8B%E5%8B%95%E3%81%AB%E5%8F%8A%E3%81%BC%E3%81%99%E5%BD%B1%E9%9F%BF/">
+        <h3 class="title is-4">
+            ホットパック温熱刺激が等速性運動に及ぼす影響
+        </h3>
+    </a>
+
+    <div class="level is-mobile details">
+        <div class="level-left">
+
+            
+            <div class="level-item">
+                <a href="/biodex/%E3%83%9B%E3%83%83%E3%83%88%E3%83%91%E3%83%83%E3%82%AF%E6%B8%A9%E7%86%B1%E5%88%BA%E6%BF%80%E3%81%8C%E7%AD%89%E9%80%9F%E6%80%A7%E9%81%8B%E5%8B%95%E3%81%AB%E5%8F%8A%E3%81%BC%E3%81%99%E5%BD%B1%E9%9F%BF/">
+                    <p class="subtitle info date">
+                        著者:  
+                        坂本 竜司 ら
+                        発行日:
+                        Oct 26,2018
+                    </p>
+                </a>
+            </div>
+            
+
+        </div>
+        
+        <div class="level-right is-hidden-touch">
+            
+            <a class="tag is-rounded" href="/tags/%E3%82%A2%E3%82%A4%E3%82%BD%E3%82%AD%E3%83%8D%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF">アイソキネティック</a>
+            
+            <a class="tag is-rounded" href="/tags/%E6%B8%A9%E7%86%B1%E7%99%82%E6%B3%95">温熱療法</a>
+            
+            <a class="tag is-rounded" href="/tags/%E8%86%9D%E9%96%A2%E7%AF%80">膝関節</a>
+            
+        </div>
+    </div>
+
+    <div>
+        
+
+        <div>
+            <a href="/biodex/%E3%83%9B%E3%83%83%E3%83%88%E3%83%91%E3%83%83%E3%82%AF%E6%B8%A9%E7%86%B1%E5%88%BA%E6%BF%80%E3%81%8C%E7%AD%89%E9%80%9F%E6%80%A7%E9%81%8B%E5%8B%95%E3%81%AB%E5%8F%8A%E3%81%BC%E3%81%99%E5%BD%B1%E9%9F%BF/">
+                <p class="summary">
+                    〔目的〕ホットパックによる温熱刺激が，動作訓練前処置としての有用性を明らかにすることを目的とした．〔対象と方法〕健常男性 20 名を対象に，湿熱法によるホットパック温熱刺激を与える場合，与えない場合において，角速度 60°/s および 180°/s での経時的な膝関節伸展筋出力を測定した．〔結果〕温熱刺激を与えた場合，角速度 60°/s において，最大筋出力および筋出力積分値ともに，15 分後に有意な増加を認めた．角速度 180°/s では，温熱刺激を与えた場合のみ，初期評価時と比較し，9分後以降に有意な増加を認めた．〔結語〕ホットパックによる温熱刺激を与えつつ筋収縮を促すことで，筋出力が向上することから，動作訓練前処置として有用であると考えられた．
+                    
+                </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="level is-mobile continue-reading">
+        <div class="level-left">
+        </div>
+        <div class="level-right">
+            <a href="/biodex/%E3%83%9B%E3%83%83%E3%83%88%E3%83%91%E3%83%83%E3%82%AF%E6%B8%A9%E7%86%B1%E5%88%BA%E6%BF%80%E3%81%8C%E7%AD%89%E9%80%9F%E6%80%A7%E9%81%8B%E5%8B%95%E3%81%AB%E5%8F%8A%E3%81%BC%E3%81%99%E5%BD%B1%E9%9F%BF/">Continue reading <i class="fa fa-angle-double-right"
+                    aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <hr>
+</div><div class="blog-brief">
+    <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/%E6%8A%95%E7%90%83%E5%8B%95%E4%BD%9C%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B3%E6%AC%A1%E5%85%83%E5%8B%95%E4%BD%9C%E8%A7%A3%E6%9E%90%E3%81%AB%E3%82%88%E3%82%8B%E9%81%8B%E5%8B%95%E5%AD%A6%E7%9A%84%E6%A4%9C%E8%A8%8E/">
+        <h3 class="title is-4">
+            投球動作における3次元動作解析による運動学的検討
+        </h3>
+    </a>
+
+    <div class="level is-mobile details">
+        <div class="level-left">
+
+            
+            <div class="level-item">
+                <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/%E6%8A%95%E7%90%83%E5%8B%95%E4%BD%9C%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B3%E6%AC%A1%E5%85%83%E5%8B%95%E4%BD%9C%E8%A7%A3%E6%9E%90%E3%81%AB%E3%82%88%E3%82%8B%E9%81%8B%E5%8B%95%E5%AD%A6%E7%9A%84%E6%A4%9C%E8%A8%8E/">
+                    <p class="subtitle info date">
+                        著者:  
+                        笹村 聡 ら
+                        発行日:
+                        May 8,2020
+                    </p>
+                </a>
+            </div>
+            
+
+        </div>
+        
+        <div class="level-right is-hidden-touch">
+            
+            <a class="tag is-rounded" href="/tags/%E9%87%8E%E7%90%83">野球</a>
+            
+            <a class="tag is-rounded" href="/tags/%E4%BD%93%E5%B9%B9">体幹</a>
+            
+            <a class="tag is-rounded" href="/tags/%E4%B8%8A%E8%85%95">上腕</a>
+            
+        </div>
+    </div>
+
+    <div>
+        
+
+        <div>
+            <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/%E6%8A%95%E7%90%83%E5%8B%95%E4%BD%9C%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B3%E6%AC%A1%E5%85%83%E5%8B%95%E4%BD%9C%E8%A7%A3%E6%9E%90%E3%81%AB%E3%82%88%E3%82%8B%E9%81%8B%E5%8B%95%E5%AD%A6%E7%9A%84%E6%A4%9C%E8%A8%8E/">
+                <p class="summary">
+                    本研究の目的は，高校野球投手の投球動作中の上腕加速度に下肢・体幹運動が及ぼす影響について明らかにすることである．高校野球投手11名を対象として，ポータブル 3 次元動作解析装置（noraxon社製，マイオモー ション）を用いて投球動作の解析を行った．その結果，体幹回旋角速度は投球側上腕の合成加速度と相関した.先行研究では体幹回旋角速度はボール速度と相関しており，このことから合成加速度を分析指標として用いる妥当性が示された．次に投球時の下肢・体幹の関節角度範囲を独立変数とし，投球側上腕の合成加速度を従属 変数とした重回帰分析では，股関節回旋角度範囲と，胸部回旋角度範囲が合成加速度と有意に関連した．以上 の結果から下肢・体幹から起こる運動連鎖が投球側上腕の合成加速度へ及ぼす影響が明らかとなった．ポータブル3 次元動作解析装置による投球の動作解析は，指導者の目視による確認やビデオフィードバックによる指 導効果をより確実にし，投球の効率改善と投球障害の予防につながる可能性がある
+                    
+                </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="level is-mobile continue-reading">
+        <div class="level-left">
+        </div>
+        <div class="level-right">
+            <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/%E6%8A%95%E7%90%83%E5%8B%95%E4%BD%9C%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B3%E6%AC%A1%E5%85%83%E5%8B%95%E4%BD%9C%E8%A7%A3%E6%9E%90%E3%81%AB%E3%82%88%E3%82%8B%E9%81%8B%E5%8B%95%E5%AD%A6%E7%9A%84%E6%A4%9C%E8%A8%8E/">Continue reading <i class="fa fa-angle-double-right"
+                    aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <hr>
+</div><div class="blog-brief">
     <a href="/biodex/%E4%B8%8B%E8%82%A2%E4%BC%B8%E5%B1%95%E3%83%88%E3%83%AB%E3%82%AF%E3%81%A8%E8%86%9D%E4%BC%B8%E5%B1%95%E7%AD%8B%E5%8A%9B%E3%81%AE%E9%96%A2%E4%BF%82/">
         <h3 class="title is-4">
             下肢伸展トルクと膝伸展筋力の関係
@@ -531,180 +658,6 @@
         </div>
         <div class="level-right">
             <a href="/%E3%83%91%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC/%E9%AB%98%E9%A0%BB%E5%BA%A6%E5%8F%8D%E5%BE%A9%E6%9C%AB%E6%A2%A2%E7%A5%9E%E7%B5%8C%E7%A3%81%E6%B0%97%E5%88%BA%E6%BF%80%E8%A3%85%E7%BD%AE%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8%E8%87%A8%E5%BA%8A%E5%BF%9C%E7%94%A8/">Continue reading <i class="fa fa-angle-double-right"
-                    aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <hr>
-</div><div class="blog-brief">
-    <a href="/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/%E9%87%8E%E7%90%83%E9%81%B8%E6%89%8B%E3%81%AE%E8%82%98%E9%A0%AD%E7%96%B2%E5%8A%B4%E9%AA%A8%E6%8A%98%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%AF%BE%E5%A4%96%E8%A1%9D%E6%92%83%E6%B3%A2%E6%B2%BB%E7%99%82%E6%B3%95%E3%81%AE%E6%B2%BB%E7%99%82%E7%B5%8C%E9%A8%93/">
-        <h3 class="title is-4">
-            野球選手の肘頭疲労骨折に対する対外衝撃波治療法の治療経験
-        </h3>
-    </a>
-
-    <div class="level is-mobile details">
-        <div class="level-left">
-
-            
-            <div class="level-item">
-                <a href="/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/%E9%87%8E%E7%90%83%E9%81%B8%E6%89%8B%E3%81%AE%E8%82%98%E9%A0%AD%E7%96%B2%E5%8A%B4%E9%AA%A8%E6%8A%98%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%AF%BE%E5%A4%96%E8%A1%9D%E6%92%83%E6%B3%A2%E6%B2%BB%E7%99%82%E6%B3%95%E3%81%AE%E6%B2%BB%E7%99%82%E7%B5%8C%E9%A8%93/">
-                    <p class="subtitle info date">
-                        著者:  
-                        大西 和友 ら
-                        発行日:
-                        2016
-                    </p>
-                </a>
-            </div>
-            
-
-        </div>
-        
-        <div class="level-right is-hidden-touch">
-            
-            <a class="tag is-rounded" href="/tags/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95">体外衝撃療法</a>
-            
-            <a class="tag is-rounded" href="/tags/%E9%87%8E%E7%90%83">野球</a>
-            
-            <a class="tag is-rounded" href="/tags/%E8%82%98%E9%96%A2%E7%AF%80">肘関節</a>
-            
-        </div>
-    </div>
-
-    <div>
-        
-
-        <div>
-            <a href="/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/%E9%87%8E%E7%90%83%E9%81%B8%E6%89%8B%E3%81%AE%E8%82%98%E9%A0%AD%E7%96%B2%E5%8A%B4%E9%AA%A8%E6%8A%98%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%AF%BE%E5%A4%96%E8%A1%9D%E6%92%83%E6%B3%A2%E6%B2%BB%E7%99%82%E6%B3%95%E3%81%AE%E6%B2%BB%E7%99%82%E7%B5%8C%E9%A8%93/">
-                <p class="summary">
-                    2013 年 7 月以降，野球選手に生じた肘頭疲労骨折に対し，体外衝撃波療法（以下，ESWT） を13例（平均年齢 15.6 歳，ESWT 後平均経過観察期間 9 か月）に施行したので，その治療成績 を報告する．ESWTは原則5000発とし，CTや超音波，圧痛部位や再現痛を参考に疼痛の耐え うる最大エネルギーで無麻酔下に照射した．平均照射エネルギーは，約 0.07mJ/mm2 であった． 全例が照射後平均 10.2 週で競技復帰し，特にシーズン中に照射した 8例は平均6.4週で競技復帰となった．復帰3か月後以降に3例で疼痛の再燃を認め，再照射を行った．骨癒合が確認で きたのは5例（39%）のみであったが，うち4例は陳旧例であった．本研究では，ESWT に伴う骨新生効果は明らかではなかったが，除痛作用により理学療法単独の治療よりも復帰が早かった．ESWTは低侵襲であり，現時点ではシーズン中の早期復帰を希望する症例に対し特に有用である。
-                    
-                </p>
-            </a>
-        </div>
-    </div>
-
-    <div class="level is-mobile continue-reading">
-        <div class="level-left">
-        </div>
-        <div class="level-right">
-            <a href="/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/%E9%87%8E%E7%90%83%E9%81%B8%E6%89%8B%E3%81%AE%E8%82%98%E9%A0%AD%E7%96%B2%E5%8A%B4%E9%AA%A8%E6%8A%98%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%AF%BE%E5%A4%96%E8%A1%9D%E6%92%83%E6%B3%A2%E6%B2%BB%E7%99%82%E6%B3%95%E3%81%AE%E6%B2%BB%E7%99%82%E7%B5%8C%E9%A8%93/">Continue reading <i class="fa fa-angle-double-right"
-                    aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <hr>
-</div><div class="blog-brief">
-    <a href="/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E6%B3%A2%E7%99%82%E6%B3%95%E3%81%8C%E6%85%A2%E6%80%A7%E7%96%BC%E7%97%9B%E3%82%92%E6%9C%89%E3%81%99%E3%82%8B%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E9%81%B8%E6%89%8B%E3%81%AE%E7%96%BC%E7%97%9B%E9%96%BE%E5%80%A4%E3%81%AB%E5%8F%8A%E3%81%BC%E3%81%99%E5%BD%B1%E9%9F%BF/">
-        <h3 class="title is-4">
-            体外衝撃波療法が慢性疼痛を有するスポーツ選手の疼痛閾値に及ぼす影響
-        </h3>
-    </a>
-
-    <div class="level is-mobile details">
-        <div class="level-left">
-
-            
-            <div class="level-item">
-                <a href="/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E6%B3%A2%E7%99%82%E6%B3%95%E3%81%8C%E6%85%A2%E6%80%A7%E7%96%BC%E7%97%9B%E3%82%92%E6%9C%89%E3%81%99%E3%82%8B%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E9%81%B8%E6%89%8B%E3%81%AE%E7%96%BC%E7%97%9B%E9%96%BE%E5%80%A4%E3%81%AB%E5%8F%8A%E3%81%BC%E3%81%99%E5%BD%B1%E9%9F%BF/">
-                    <p class="subtitle info date">
-                        著者:  
-                        小山 貴之 ら
-                        発行日:
-                        Feb 26,2019
-                    </p>
-                </a>
-            </div>
-            
-
-        </div>
-        
-        <div class="level-right is-hidden-touch">
-            
-            <a class="tag is-rounded" href="/tags/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95">体外衝撃療法</a>
-            
-            <a class="tag is-rounded" href="/tags/%E3%82%A2%E3%83%A1%E3%83%95%E3%83%88">アメフト</a>
-            
-            <a class="tag is-rounded" href="/tags/vas">VAS</a>
-            
-        </div>
-    </div>
-
-    <div>
-        
-
-        <div>
-            <a href="/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E6%B3%A2%E7%99%82%E6%B3%95%E3%81%8C%E6%85%A2%E6%80%A7%E7%96%BC%E7%97%9B%E3%82%92%E6%9C%89%E3%81%99%E3%82%8B%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E9%81%B8%E6%89%8B%E3%81%AE%E7%96%BC%E7%97%9B%E9%96%BE%E5%80%A4%E3%81%AB%E5%8F%8A%E3%81%BC%E3%81%99%E5%BD%B1%E9%9F%BF/">
-                <p class="summary">
-                    〔目的〕本研究は，体外衝撃波療法（SWT）が疼痛閾値に及ぼす影響を検討した．〔対象と方法〕対象は，大 学アメリカンフットボール選手のうち，一定部位に 4週間以上の疼痛を有する者7名9部位とした．SWT 照射を疼 痛誘発部位に72時間空けて2回施行した．100 mm Visual Analog Scale（VAS），知覚テスターによる表在痛覚閾値， 圧痛計による圧痛閾値を第1回照射前後（1日目），2日目，第2回照射前後（4日目），7日目，14日目に測定した．〔結 果VASは7日目・14日目が1日目よりも有意に減少し，圧痛閾値は 7 日目が 1 日目よりも有意に上昇した．〔結語〕 本研究では2回の照射により7日目で疼痛軽減が認められ，スポーツ選手の慢性疼痛に対して有効と考えられた．
-                    
-                </p>
-            </a>
-        </div>
-    </div>
-
-    <div class="level is-mobile continue-reading">
-        <div class="level-left">
-        </div>
-        <div class="level-right">
-            <a href="/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E6%B3%A2%E7%99%82%E6%B3%95%E3%81%8C%E6%85%A2%E6%80%A7%E7%96%BC%E7%97%9B%E3%82%92%E6%9C%89%E3%81%99%E3%82%8B%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E9%81%B8%E6%89%8B%E3%81%AE%E7%96%BC%E7%97%9B%E9%96%BE%E5%80%A4%E3%81%AB%E5%8F%8A%E3%81%BC%E3%81%99%E5%BD%B1%E9%9F%BF/">Continue reading <i class="fa fa-angle-double-right"
-                    aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <hr>
-</div><div class="blog-brief">
-    <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0emg/%E9%87%8E%E7%90%83%E3%81%AE%E9%80%A3%E7%B6%9A%E6%8A%95%E7%90%83%E3%81%AB%E3%82%88%E3%82%8B%E8%82%A9%E9%96%A2%E7%AF%80%E5%A4%96%E6%97%8B%E7%AD%8B%E7%BE%A4%E3%81%AE%E7%AD%8B%E7%96%B2%E5%8A%B4/">
-        <h3 class="title is-4">
-            野球の連続投球による肩関節外旋筋群の筋疲労
-        </h3>
-    </a>
-
-    <div class="level is-mobile details">
-        <div class="level-left">
-
-            
-            <div class="level-item">
-                <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0emg/%E9%87%8E%E7%90%83%E3%81%AE%E9%80%A3%E7%B6%9A%E6%8A%95%E7%90%83%E3%81%AB%E3%82%88%E3%82%8B%E8%82%A9%E9%96%A2%E7%AF%80%E5%A4%96%E6%97%8B%E7%AD%8B%E7%BE%A4%E3%81%AE%E7%AD%8B%E7%96%B2%E5%8A%B4/">
-                    <p class="subtitle info date">
-                        著者:  
-                        吉原 圭祐 ら
-                        発行日:
-                        May 12, 2012
-                    </p>
-                </a>
-            </div>
-            
-
-        </div>
-        
-        <div class="level-right is-hidden-touch">
-            
-            <a class="tag is-rounded" href="/tags/%E8%82%A9%E9%96%A2%E7%AF%80">肩関節</a>
-            
-            <a class="tag is-rounded" href="/tags/%E9%87%8E%E7%90%83">野球</a>
-            
-            <a class="tag is-rounded" href="/tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D">筋電位</a>
-            
-        </div>
-    </div>
-
-    <div>
-        
-
-        <div>
-            <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0emg/%E9%87%8E%E7%90%83%E3%81%AE%E9%80%A3%E7%B6%9A%E6%8A%95%E7%90%83%E3%81%AB%E3%82%88%E3%82%8B%E8%82%A9%E9%96%A2%E7%AF%80%E5%A4%96%E6%97%8B%E7%AD%8B%E7%BE%A4%E3%81%AE%E7%AD%8B%E7%96%B2%E5%8A%B4/">
-                <p class="summary">
-                    〔目的〕本研究の目的は，連続投球による筋疲労で投球中の肩関節外旋筋群は活動開始時間に変化が起こるか を明らかにすることである．〔対象〕野球歴 5 年以上の成人男性 10 名を対象とした．〔方法〕100 球の全力投球前後 で投球中の筋活動を記録した．最大随意収縮時の活動に対する割合（%MVC）の 50%，100%，最大値に到るまでの 時間を算出し比較した．〔結果〕投球前後で，50％，100％では活動開始時間はいずれの筋でも著明な変化は見られ なかった．最大値では，小円筋のみ有意に遅延が起こり，その他の筋では有意な変化は得られなかった．〔結語〕投 球による疲労により，各筋に筋力低下が認められ，活動開始時間の変化は筋により様々であった．
-                    
-                </p>
-            </a>
-        </div>
-    </div>
-
-    <div class="level is-mobile continue-reading">
-        <div class="level-left">
-        </div>
-        <div class="level-right">
-            <a href="/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0emg/%E9%87%8E%E7%90%83%E3%81%AE%E9%80%A3%E7%B6%9A%E6%8A%95%E7%90%83%E3%81%AB%E3%82%88%E3%82%8B%E8%82%A9%E9%96%A2%E7%AF%80%E5%A4%96%E6%97%8B%E7%AD%8B%E7%BE%A4%E3%81%AE%E7%AD%8B%E7%96%B2%E5%8A%B4/">Continue reading <i class="fa fa-angle-double-right"
                     aria-hidden="true"></i></a>
         </div>
     </div>
