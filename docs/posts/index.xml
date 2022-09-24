@@ -6,19 +6,10 @@
     <description>Recent content in Posts on 文献まとめ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 22 Sep 2022 17:44:59 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://koji0919.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hello</title>
-      <link>https://koji0919.github.io/posts/hello/</link>
-      <pubDate>Thu, 22 Sep 2022 17:44:59 +0900</pubDate>
-      
-      <guid>https://koji0919.github.io/posts/hello/</guid>
-      <description>おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお</description>
-    </item>
     
     <item>
       <title>取扱い重量 と前屈姿勢による腰部負担評価のための筋電位測定法</title>
@@ -35,7 +26,7 @@
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://koji0919.github.io/posts/1.-markdown-syntax/</guid>
-      <description>&lt;p&gt;新しい医療・福祉のために、そして後に続く人たちのために、降り積もった雪をかき分け、道なき道を切り開き、自ら汗をかく。&lt;/p&gt;</description>
+      <description>&lt;p&gt;サンプル&lt;/p&gt;</description>
     </item>
     
     <item>
