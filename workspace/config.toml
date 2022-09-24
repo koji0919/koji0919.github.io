@@ -48,7 +48,7 @@ enableRobotsTXT = true
                 weight = 1
             [[menu.main]]
                 parent = "投稿"
-                name = "セクションから探す"
+                name = "製品から探す"
                 url = "/sections/"
                 weight = 2
             [[menu.main]]

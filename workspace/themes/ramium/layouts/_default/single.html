@@ -7,14 +7,16 @@
         <div class="level-left">
             {{ if or .Params.showDate .Site.Params.showDate }}
             <div class="level-item">
-                <p class="subtitle info date">
-                    Posted by  
-                    {{ .Params.auther }} @ 
-                    {{- .Date.Format "Jan 2, 2006" }}
+                <p class="auther info">
+                        著者:  
+                        {{ .Params.auther }}
+                        発行日:
+                        {{ .Params.paperPublished }}
                 </p>
             </div>
             {{ end }}
 
+           
         </div>
         <div class="level-right is-hidden-touch">
             <div class="tags">
@@ -23,6 +25,8 @@
                 {{ end }}
             </div>
         </div>
+        <br>
+
     </div>
 
     <div class="tags is-hidden-desktop">
@@ -31,6 +35,12 @@
         {{ end }}
     </div>
 
+    <div class="level-left">
+        <a href="{{ .Params.links }}" target="_blank">
+            <h4>原本pdfはここをクリック</h4>
+        </a>
+    </div>
+    
     <div class="blog-text">
         {{ with .Params.image }}
         <figure>
@@ -41,7 +51,13 @@
         {{ .Content }}
     </div>
 </div>
-
+<div class="level-item">
+    <p class="contributer info">
+        Posted by  
+        {{ .Params.contributer }} @ 
+        {{- .Date.Format "Jan 2, 2006" }}
+    </p>
+</div>
 {{- partial "social-media-share.html" . -}}
 <br>
 {{ partial "disqus.html" . }}

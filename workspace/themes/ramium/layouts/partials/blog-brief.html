@@ -12,22 +12,14 @@
             <div class="level-item">
                 <a href="{{ .RelPermalink }}">
                     <p class="subtitle info date">
-                        Posted by  
-                        {{ .Params.auther }} @ 
-                        {{- .Date.Format "Jan 2, 2006" }}
-                    </p>
-                </a>
-            </div>
-            {{ end }}
-
-            <div class="level-item">
-                <a href="{{ .RelPermalink }}">
-                    <p class="subtitle info">
-                        Published:
+                        著者:  
+                        {{ .Params.auther }}
+                        発行日:
                         {{ .Params.paperPublished }}
                     </p>
                 </a>
             </div>
+            {{ end }}
 
         </div>
         
