@@ -4,7 +4,7 @@ baseurl = 'https://koji0919.github.io/'
 languageCode = 'ja-jp'
 theme = "ramium"
 
-title = "文献まとめ"
+title = "文献まとめβ"
 disqusShortname = ""
 googleAnalytics = ""
 summaryLength = 140
