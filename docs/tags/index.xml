@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 文献まとめ</title>
+    <title>Tags on 文献まとめβ</title>
     <link>https://koji0919.github.io/tags/</link>
-    <description>Recent content in Tags on 文献まとめ</description>
+    <description>Recent content in Tags on 文献まとめβ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 24 Sep 2022 22:54:06 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 28 Sep 2022 09:05:42 +0900</lastBuildDate><atom:link href="https://koji0919.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ECG</title>
+      <link>https://koji0919.github.io/tags/ecg/</link>
+      <pubDate>Wed, 28 Sep 2022 09:05:42 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/ecg/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://koji0919.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>移乗</title>
+      <link>https://koji0919.github.io/tags/%E7%A7%BB%E4%B9%97/</link>
+      <pubDate>Wed, 28 Sep 2022 09:05:42 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/%E7%A7%BB%E4%B9%97/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>筋電位</title>
+      <link>https://koji0919.github.io/tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D/</link>
+      <pubDate>Wed, 28 Sep 2022 09:05:42 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>アイソキネティック</title>
@@ -143,15 +166,6 @@
       <pubDate>Thu, 22 Sep 2022 20:41:35 +0900</pubDate>
       
       <guid>https://koji0919.github.io/tags/%E3%83%90%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>筋電位</title>
-      <link>https://koji0919.github.io/tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D/</link>
-      <pubDate>Thu, 22 Sep 2022 20:41:35 +0900</pubDate>
-      
-      <guid>https://koji0919.github.io/tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D/</guid>
       <description></description>
     </item>
     
