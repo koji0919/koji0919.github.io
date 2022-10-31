@@ -16,5 +16,14 @@
       <description>マイオモーションを使用した動作解析の妥当性と信頼性検証に関する文献。</description>
     </item>
     
+    <item>
+      <title>Sample</title>
+      <link>https://koji0919.github.io/sample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji0919.github.io/sample/</guid>
+      <description>これはサンプルです。文献の概要を記述します。 ここは文献を購読した人による意見等を記述するエリアです。</description>
+    </item>
+    
   </channel>
 </rss>
