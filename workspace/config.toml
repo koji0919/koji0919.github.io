@@ -1,10 +1,10 @@
-baseurl = 'https://koji0919.github.io/'
+baseurl = 'https://s_stage.github.io/'
 #CanonifyURLs=true
 
 languageCode = 'ja-jp'
 theme = "ramium"
 
-title = "文献まとめβ"
+title = "(タイトル募集中)"
 disqusShortname = ""
 googleAnalytics = ""
 summaryLength = 140

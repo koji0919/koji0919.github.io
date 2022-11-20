@@ -1,243 +1,306 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 文献まとめβ</title>
-    <link>https://koji0919.github.io/tags/</link>
-    <description>Recent content in Tags on 文献まとめβ</description>
+    <title>Tags on (タイトル募集中)</title>
+    <link>https://s_stage.github.io/tags/</link>
+    <description>Recent content in Tags on (タイトル募集中)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 30 Sep 2022 17:52:57 +0900</lastBuildDate><atom:link href="https://koji0919.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Nov 2022 17:08:08 +0900</lastBuildDate><atom:link href="https://s_stage.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FMA</title>
+      <link>https://s_stage.github.io/tags/fma/</link>
+      <pubDate>Tue, 15 Nov 2022 17:08:08 +0900</pubDate>
+      
+      <guid>https://s_stage.github.io/tags/fma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAS</title>
+      <link>https://s_stage.github.io/tags/mas/</link>
+      <pubDate>Tue, 15 Nov 2022 17:08:08 +0900</pubDate>
+      
+      <guid>https://s_stage.github.io/tags/mas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rEWST</title>
+      <link>https://s_stage.github.io/tags/rewst/</link>
+      <pubDate>Tue, 15 Nov 2022 17:08:08 +0900</pubDate>
+      
+      <guid>https://s_stage.github.io/tags/rewst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ショックウェーブ</title>
+      <link>https://s_stage.github.io/tags/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%96/</link>
+      <pubDate>Tue, 15 Nov 2022 17:08:08 +0900</pubDate>
+      
+      <guid>https://s_stage.github.io/tags/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%96/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ランダム化比較試験</title>
+      <link>https://s_stage.github.io/tags/%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E5%8C%96%E6%AF%94%E8%BC%83%E8%A9%A6%E9%A8%93/</link>
+      <pubDate>Tue, 15 Nov 2022 17:08:08 +0900</pubDate>
+      
+      <guid>https://s_stage.github.io/tags/%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E5%8C%96%E6%AF%94%E8%BC%83%E8%A9%A6%E9%A8%93/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>痙縮</title>
+      <link>https://s_stage.github.io/tags/%E7%97%99%E7%B8%AE/</link>
+      <pubDate>Tue, 15 Nov 2022 17:08:08 +0900</pubDate>
+      
+      <guid>https://s_stage.github.io/tags/%E7%97%99%E7%B8%AE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>脳卒中</title>
+      <link>https://s_stage.github.io/tags/%E8%84%B3%E5%8D%92%E4%B8%AD/</link>
+      <pubDate>Tue, 15 Nov 2022 17:08:08 +0900</pubDate>
+      
+      <guid>https://s_stage.github.io/tags/%E8%84%B3%E5%8D%92%E4%B8%AD/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>EMG</title>
-      <link>https://koji0919.github.io/tags/emg/</link>
+      <link>https://s_stage.github.io/tags/emg/</link>
       <pubDate>Fri, 30 Sep 2022 17:52:57 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/emg/</guid>
+      <guid>https://s_stage.github.io/tags/emg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>骨盤底筋群</title>
-      <link>https://koji0919.github.io/tags/%E9%AA%A8%E7%9B%A4%E5%BA%95%E7%AD%8B%E7%BE%A4/</link>
+      <link>https://s_stage.github.io/tags/%E9%AA%A8%E7%9B%A4%E5%BA%95%E7%AD%8B%E7%BE%A4/</link>
       <pubDate>Fri, 30 Sep 2022 17:52:57 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E9%AA%A8%E7%9B%A4%E5%BA%95%E7%AD%8B%E7%BE%A4/</guid>
+      <guid>https://s_stage.github.io/tags/%E9%AA%A8%E7%9B%A4%E5%BA%95%E7%AD%8B%E7%BE%A4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>a</title>
-      <link>https://koji0919.github.io/tags/a/</link>
+      <link>https://s_stage.github.io/tags/a/</link>
       <pubDate>Wed, 28 Sep 2022 09:14:24 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/a/</guid>
+      <guid>https://s_stage.github.io/tags/a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>b</title>
-      <link>https://koji0919.github.io/tags/b/</link>
+      <link>https://s_stage.github.io/tags/b/</link>
       <pubDate>Wed, 28 Sep 2022 09:14:24 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/b/</guid>
+      <guid>https://s_stage.github.io/tags/b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>c</title>
-      <link>https://koji0919.github.io/tags/c/</link>
+      <link>https://s_stage.github.io/tags/c/</link>
       <pubDate>Wed, 28 Sep 2022 09:14:24 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/c/</guid>
+      <guid>https://s_stage.github.io/tags/c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ECG</title>
-      <link>https://koji0919.github.io/tags/ecg/</link>
+      <link>https://s_stage.github.io/tags/ecg/</link>
       <pubDate>Wed, 28 Sep 2022 09:05:42 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/ecg/</guid>
+      <guid>https://s_stage.github.io/tags/ecg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>移乗</title>
-      <link>https://koji0919.github.io/tags/%E7%A7%BB%E4%B9%97/</link>
+      <link>https://s_stage.github.io/tags/%E7%A7%BB%E4%B9%97/</link>
       <pubDate>Wed, 28 Sep 2022 09:05:42 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E7%A7%BB%E4%B9%97/</guid>
+      <guid>https://s_stage.github.io/tags/%E7%A7%BB%E4%B9%97/</guid>
       <description></description>
     </item>
     
     <item>
       <title>筋電位</title>
-      <link>https://koji0919.github.io/tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D/</link>
+      <link>https://s_stage.github.io/tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D/</link>
       <pubDate>Wed, 28 Sep 2022 09:05:42 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D/</guid>
+      <guid>https://s_stage.github.io/tags/%E7%AD%8B%E9%9B%BB%E4%BD%8D/</guid>
       <description></description>
     </item>
     
     <item>
       <title>アイソキネティック</title>
-      <link>https://koji0919.github.io/tags/%E3%82%A2%E3%82%A4%E3%82%BD%E3%82%AD%E3%83%8D%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/</link>
+      <link>https://s_stage.github.io/tags/%E3%82%A2%E3%82%A4%E3%82%BD%E3%82%AD%E3%83%8D%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/</link>
       <pubDate>Sat, 24 Sep 2022 22:54:06 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E3%82%A2%E3%82%A4%E3%82%BD%E3%82%AD%E3%83%8D%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/</guid>
+      <guid>https://s_stage.github.io/tags/%E3%82%A2%E3%82%A4%E3%82%BD%E3%82%AD%E3%83%8D%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/</guid>
       <description></description>
     </item>
     
     <item>
       <title>温熱療法</title>
-      <link>https://koji0919.github.io/tags/%E6%B8%A9%E7%86%B1%E7%99%82%E6%B3%95/</link>
+      <link>https://s_stage.github.io/tags/%E6%B8%A9%E7%86%B1%E7%99%82%E6%B3%95/</link>
       <pubDate>Sat, 24 Sep 2022 22:54:06 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E6%B8%A9%E7%86%B1%E7%99%82%E6%B3%95/</guid>
+      <guid>https://s_stage.github.io/tags/%E6%B8%A9%E7%86%B1%E7%99%82%E6%B3%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title>膝関節</title>
-      <link>https://koji0919.github.io/tags/%E8%86%9D%E9%96%A2%E7%AF%80/</link>
+      <link>https://s_stage.github.io/tags/%E8%86%9D%E9%96%A2%E7%AF%80/</link>
       <pubDate>Sat, 24 Sep 2022 22:54:06 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E8%86%9D%E9%96%A2%E7%AF%80/</guid>
+      <guid>https://s_stage.github.io/tags/%E8%86%9D%E9%96%A2%E7%AF%80/</guid>
       <description></description>
     </item>
     
     <item>
       <title>上腕</title>
-      <link>https://koji0919.github.io/tags/%E4%B8%8A%E8%85%95/</link>
+      <link>https://s_stage.github.io/tags/%E4%B8%8A%E8%85%95/</link>
       <pubDate>Sat, 24 Sep 2022 22:35:43 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E4%B8%8A%E8%85%95/</guid>
+      <guid>https://s_stage.github.io/tags/%E4%B8%8A%E8%85%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title>体幹</title>
-      <link>https://koji0919.github.io/tags/%E4%BD%93%E5%B9%B9/</link>
+      <link>https://s_stage.github.io/tags/%E4%BD%93%E5%B9%B9/</link>
       <pubDate>Sat, 24 Sep 2022 22:35:43 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E4%BD%93%E5%B9%B9/</guid>
+      <guid>https://s_stage.github.io/tags/%E4%BD%93%E5%B9%B9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>野球</title>
-      <link>https://koji0919.github.io/tags/%E9%87%8E%E7%90%83/</link>
+      <link>https://s_stage.github.io/tags/%E9%87%8E%E7%90%83/</link>
       <pubDate>Sat, 24 Sep 2022 22:35:43 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E9%87%8E%E7%90%83/</guid>
+      <guid>https://s_stage.github.io/tags/%E9%87%8E%E7%90%83/</guid>
       <description></description>
     </item>
     
     <item>
       <title>大腿四頭筋</title>
-      <link>https://koji0919.github.io/tags/%E5%A4%A7%E8%85%BF%E5%9B%9B%E9%A0%AD%E7%AD%8B/</link>
+      <link>https://s_stage.github.io/tags/%E5%A4%A7%E8%85%BF%E5%9B%9B%E9%A0%AD%E7%AD%8B/</link>
       <pubDate>Sat, 24 Sep 2022 17:58:05 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E5%A4%A7%E8%85%BF%E5%9B%9B%E9%A0%AD%E7%AD%8B/</guid>
+      <guid>https://s_stage.github.io/tags/%E5%A4%A7%E8%85%BF%E5%9B%9B%E9%A0%AD%E7%AD%8B/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PMS</title>
-      <link>https://koji0919.github.io/tags/pms/</link>
+      <link>https://s_stage.github.io/tags/pms/</link>
       <pubDate>Sat, 24 Sep 2022 17:51:16 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/pms/</guid>
+      <guid>https://s_stage.github.io/tags/pms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>嚥下</title>
-      <link>https://koji0919.github.io/tags/%E5%9A%A5%E4%B8%8B/</link>
+      <link>https://s_stage.github.io/tags/%E5%9A%A5%E4%B8%8B/</link>
       <pubDate>Sat, 24 Sep 2022 17:51:16 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E5%9A%A5%E4%B8%8B/</guid>
+      <guid>https://s_stage.github.io/tags/%E5%9A%A5%E4%B8%8B/</guid>
       <description></description>
     </item>
     
     <item>
       <title>磁気刺激</title>
-      <link>https://koji0919.github.io/tags/%E7%A3%81%E6%B0%97%E5%88%BA%E6%BF%80/</link>
+      <link>https://s_stage.github.io/tags/%E7%A3%81%E6%B0%97%E5%88%BA%E6%BF%80/</link>
       <pubDate>Sat, 24 Sep 2022 17:51:16 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E7%A3%81%E6%B0%97%E5%88%BA%E6%BF%80/</guid>
+      <guid>https://s_stage.github.io/tags/%E7%A3%81%E6%B0%97%E5%88%BA%E6%BF%80/</guid>
       <description></description>
     </item>
     
     <item>
       <title>体外衝撃療法</title>
-      <link>https://koji0919.github.io/tags/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95/</link>
+      <link>https://s_stage.github.io/tags/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95/</link>
       <pubDate>Thu, 22 Sep 2022 21:35:07 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95/</guid>
+      <guid>https://s_stage.github.io/tags/%E4%BD%93%E5%A4%96%E8%A1%9D%E6%92%83%E7%99%82%E6%B3%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title>肘関節</title>
-      <link>https://koji0919.github.io/tags/%E8%82%98%E9%96%A2%E7%AF%80/</link>
+      <link>https://s_stage.github.io/tags/%E8%82%98%E9%96%A2%E7%AF%80/</link>
       <pubDate>Thu, 22 Sep 2022 21:35:07 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E8%82%98%E9%96%A2%E7%AF%80/</guid>
+      <guid>https://s_stage.github.io/tags/%E8%82%98%E9%96%A2%E7%AF%80/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VAS</title>
-      <link>https://koji0919.github.io/tags/vas/</link>
+      <link>https://s_stage.github.io/tags/vas/</link>
       <pubDate>Thu, 22 Sep 2022 21:20:17 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/vas/</guid>
+      <guid>https://s_stage.github.io/tags/vas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>アメフト</title>
-      <link>https://koji0919.github.io/tags/%E3%82%A2%E3%83%A1%E3%83%95%E3%83%88/</link>
+      <link>https://s_stage.github.io/tags/%E3%82%A2%E3%83%A1%E3%83%95%E3%83%88/</link>
       <pubDate>Thu, 22 Sep 2022 21:20:17 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E3%82%A2%E3%83%A1%E3%83%95%E3%83%88/</guid>
+      <guid>https://s_stage.github.io/tags/%E3%82%A2%E3%83%A1%E3%83%95%E3%83%88/</guid>
       <description></description>
     </item>
     
     <item>
       <title>バイオフィードバック</title>
-      <link>https://koji0919.github.io/tags/%E3%83%90%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF/</link>
+      <link>https://s_stage.github.io/tags/%E3%83%90%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF/</link>
       <pubDate>Thu, 22 Sep 2022 20:41:35 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E3%83%90%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF/</guid>
+      <guid>https://s_stage.github.io/tags/%E3%83%90%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF/</guid>
       <description></description>
     </item>
     
     <item>
       <title>肩関節</title>
-      <link>https://koji0919.github.io/tags/%E8%82%A9%E9%96%A2%E7%AF%80/</link>
+      <link>https://s_stage.github.io/tags/%E8%82%A9%E9%96%A2%E7%AF%80/</link>
       <pubDate>Thu, 22 Sep 2022 20:41:35 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E8%82%A9%E9%96%A2%E7%AF%80/</guid>
+      <guid>https://s_stage.github.io/tags/%E8%82%A9%E9%96%A2%E7%AF%80/</guid>
       <description></description>
     </item>
     
     <item>
       <title>舌骨上筋群</title>
-      <link>https://koji0919.github.io/tags/%E8%88%8C%E9%AA%A8%E4%B8%8A%E7%AD%8B%E7%BE%A4/</link>
+      <link>https://s_stage.github.io/tags/%E8%88%8C%E9%AA%A8%E4%B8%8A%E7%AD%8B%E7%BE%A4/</link>
       <pubDate>Thu, 22 Sep 2022 20:41:35 +0900</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E8%88%8C%E9%AA%A8%E4%B8%8A%E7%AD%8B%E7%BE%A4/</guid>
+      <guid>https://s_stage.github.io/tags/%E8%88%8C%E9%AA%A8%E4%B8%8A%E7%AD%8B%E7%BE%A4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>脊柱起立筋</title>
-      <link>https://koji0919.github.io/tags/%E8%84%8A%E6%9F%B1%E8%B5%B7%E7%AB%8B%E7%AD%8B/</link>
+      <link>https://s_stage.github.io/tags/%E8%84%8A%E6%9F%B1%E8%B5%B7%E7%AB%8B%E7%AD%8B/</link>
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://koji0919.github.io/tags/%E8%84%8A%E6%9F%B1%E8%B5%B7%E7%AB%8B%E7%AD%8B/</guid>
+      <guid>https://s_stage.github.io/tags/%E8%84%8A%E6%9F%B1%E8%B5%B7%E7%AB%8B%E7%AD%8B/</guid>
       <description></description>
     </item>
     

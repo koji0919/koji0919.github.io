@@ -19,7 +19,7 @@ enableemoji = false
     math = false # best to enable this in the front matter of a page
     githubProfile = "rafed/ramium/"
 
-    tagsInHome = 40
+    tagsInHome = 20
     sectionsInHome = 5
     paginatePostsPerPage = 5
     paginateTagsPerPage = 6
