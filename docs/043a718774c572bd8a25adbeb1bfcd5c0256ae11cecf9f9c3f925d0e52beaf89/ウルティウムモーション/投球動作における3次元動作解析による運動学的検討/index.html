@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head><title>
+    投球動作における3次元動作解析による運動学的検討 | 
+    
+    (タイトル募集中)</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="本研究の目的は，高校野球投手の投球動作中の上腕加速度に下肢・体幹運動が及ぼす影響について明らかにすることである．高校野球投手11名を対象として，ポータブル3次元動作解析装置（noraxon社製，マイオモー ション）を用いて投球動作の解析を行った．その結果，体幹回旋角速度は投球側上腕の合成加速度と相関した.先行研究では体幹回旋角速度はボール速度と相関しており，このことから合成加速度を分析指標として用いる妥当性が示された．次に投球時の下肢・体幹の関節角度範囲を独立変数とし，投球側上腕の合成加速度を従属 変数とした重回帰分析では，股関節回旋角度範囲と，胸部回旋角度範囲が合成加速度と有意に関連した．以上の結果から下肢・体幹から起こる運動連鎖が投球側上腕の合成加速度へ及ぼす影響が明らかとなった．ポータブル3 次元動作解析装置による投球の動作解析は，指導者の目視による確認やビデオフィードバックによる指 導効果をより確実にし，投球の効率改善と投球障害の予防につながる可能性がある.
+    ">
+
+
+<meta property="og:title" content="投球動作における3次元動作解析による運動学的検討" />
+<meta property="og:description" content="本研究の目的は，高校野球投手の投球動作中の上腕加速度に下肢・体幹運動が及ぼす影響について明らかにすることである．高校野球投手11名を対象として，ポータブル3次元動作解析装置（noraxon社製，マイオモー ション）を用いて投球動作の解析を行った．その結果，体幹回旋角速度は投球側上腕の合成加速度と相関した.先行研究では体幹回旋角速度はボール速度と相関しており，このことから合成加速度を分析指標として用いる妥当性が示された．次に投球時の下肢・体幹の関節角度範囲を独立変数とし，投球側上腕の合成加速度を従属 変数とした重回帰分析では，股関節回旋角度範囲と，胸部回旋角度範囲が合成加速度と有意に関連した．以上の結果から下肢・体幹から起こる運動連鎖が投球側上腕の合成加速度へ及ぼす影響が明らかとなった．ポータブル3 次元動作解析装置による投球の動作解析は，指導者の目視による確認やビデオフィードバックによる指 導効果をより確実にし，投球の効率改善と投球障害の予防につながる可能性がある." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://s_stage.github.io/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/%E6%8A%95%E7%90%83%E5%8B%95%E4%BD%9C%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B3%E6%AC%A1%E5%85%83%E5%8B%95%E4%BD%9C%E8%A7%A3%E6%9E%90%E3%81%AB%E3%82%88%E3%82%8B%E9%81%8B%E5%8B%95%E5%AD%A6%E7%9A%84%E6%A4%9C%E8%A8%8E/" /><meta property="article:section" content="ウルティウムモーション" />
+<meta property="article:published_time" content="2022-09-24T22:35:43+09:00" />
+<meta property="article:modified_time" content="2022-09-24T22:35:43+09:00" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="投球動作における3次元動作解析による運動学的検討"/>
+<meta name="twitter:description" content="本研究の目的は，高校野球投手の投球動作中の上腕加速度に下肢・体幹運動が及ぼす影響について明らかにすることである．高校野球投手11名を対象として，ポータブル3次元動作解析装置（noraxon社製，マイオモー ション）を用いて投球動作の解析を行った．その結果，体幹回旋角速度は投球側上腕の合成加速度と相関した.先行研究では体幹回旋角速度はボール速度と相関しており，このことから合成加速度を分析指標として用いる妥当性が示された．次に投球時の下肢・体幹の関節角度範囲を独立変数とし，投球側上腕の合成加速度を従属 変数とした重回帰分析では，股関節回旋角度範囲と，胸部回旋角度範囲が合成加速度と有意に関連した．以上の結果から下肢・体幹から起こる運動連鎖が投球側上腕の合成加速度へ及ぼす影響が明らかとなった．ポータブル3 次元動作解析装置による投球の動作解析は，指導者の目視による確認やビデオフィードバックによる指 導効果をより確実にし，投球の効率改善と投球障害の予防につながる可能性がある."/>
+
+<meta itemprop="name" content="投球動作における3次元動作解析による運動学的検討">
+<meta itemprop="description" content="本研究の目的は，高校野球投手の投球動作中の上腕加速度に下肢・体幹運動が及ぼす影響について明らかにすることである．高校野球投手11名を対象として，ポータブル3次元動作解析装置（noraxon社製，マイオモー ション）を用いて投球動作の解析を行った．その結果，体幹回旋角速度は投球側上腕の合成加速度と相関した.先行研究では体幹回旋角速度はボール速度と相関しており，このことから合成加速度を分析指標として用いる妥当性が示された．次に投球時の下肢・体幹の関節角度範囲を独立変数とし，投球側上腕の合成加速度を従属 変数とした重回帰分析では，股関節回旋角度範囲と，胸部回旋角度範囲が合成加速度と有意に関連した．以上の結果から下肢・体幹から起こる運動連鎖が投球側上腕の合成加速度へ及ぼす影響が明らかとなった．ポータブル3 次元動作解析装置による投球の動作解析は，指導者の目視による確認やビデオフィードバックによる指 導効果をより確実にし，投球の効率改善と投球障害の予防につながる可能性がある."><meta itemprop="datePublished" content="2022-09-24T22:35:43+09:00" />
+<meta itemprop="dateModified" content="2022-09-24T22:35:43+09:00" />
+<meta itemprop="wordCount" content="5">
+<meta itemprop="keywords" content="野球,体幹,上腕," />
+<link rel="canonical" href="https://s_stage.github.io/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/%E6%8A%95%E7%90%83%E5%8B%95%E4%BD%9C%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B3%E6%AC%A1%E5%85%83%E5%8B%95%E4%BD%9C%E8%A7%A3%E6%9E%90%E3%81%AB%E3%82%88%E3%82%8B%E9%81%8B%E5%8B%95%E5%AD%A6%E7%9A%84%E6%A4%9C%E8%A8%8E/" />
+
+<link rel="icon" type="image/png" href="image/%e3%83%89%e3%82%af%e3%82%bf%e3%83%bc.png">
+
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/bulma.min.css">
+
+
+
+
+
+<script src=/js/ramium.js></script>
+<link rel="stylesheet" href=/css/ramium.css>
+
+
+
+
+
+</head>
+
+<body><nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href=/>
+      
+      <strong>(タイトル募集中) </strong>
+      
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+      data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      
+      
+      <a class="navbar-item" href="/">ホーム</a>
+      
+      
+      
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">投稿を検索</a>
+        <div class="navbar-dropdown">
+          
+          <a class="navbar-item" href="/tags/">タグから探す</a>
+          
+          <a class="navbar-item" href="/sections/">製品から探す</a>
+          
+          <a class="navbar-item" href="/posts/">一覧</a>
+          
+        </div>
+      </div>
+      
+      
+      
+      <a class="navbar-item" href="/author/">このサイトについて</a>
+      
+      
+    </div>
+
+    <div class="navbar-end">
+      
+      <a class="navbar-item navgithub" href="https://github.com/rafed/ramium/" target="_blank">
+        <i class="fa fa-github fa-2x"></i>
+      </a>
+      
+
+      
+    </div>
+  </div>
+</nav><div class="columns is-centered">
+        <div id="page-body" class="column is-7">
+
+<div class="content blog">
+    <h1>投球動作における3次元動作解析による運動学的検討</h1>
+
+    <div id="infobar" class="level is-mobile">
+        <div class="level-left">
+            
+            <div class="level-item">
+                <p class="auther info">
+                        著者:  
+                        笹村 聡 ら
+                        発行日:
+                        May 8,2020
+                </p>
+            </div>
+            
+
+           
+        </div>
+        <div class="level-right is-hidden-touch">
+            <div class="tags">
+                
+                <a class="tag is-dark is-rounded" href="/tags/%E9%87%8E%E7%90%83">野球</a>
+                
+                <a class="tag is-dark is-rounded" href="/tags/%E4%BD%93%E5%B9%B9">体幹</a>
+                
+                <a class="tag is-dark is-rounded" href="/tags/%E4%B8%8A%E8%85%95">上腕</a>
+                
+            </div>
+        </div>
+        <br>
+
+    </div>
+
+    <div class="tags is-hidden-desktop">
+        
+        <a class="tag is-dark is-rounded" href="/tags/%E9%87%8E%E7%90%83">野球</a>
+        
+        <a class="tag is-dark is-rounded" href="/tags/%E4%BD%93%E5%B9%B9">体幹</a>
+        
+        <a class="tag is-dark is-rounded" href="/tags/%E4%B8%8A%E8%85%95">上腕</a>
+        
+    </div>
+
+    <div class="level-left">
+        <a href="https://www.jstage.jst.go.jp/article/kochirehadai/1/0/1_1/_pdf/-char/ja" target="_blank">
+            <h4><font color="royalblue">原本pdfはここをクリック</font></h4>
+        </a>
+    </div>
+
+    <div class="blog-text">
+        
+
+        <p>本研究の目的は，高校野球投手の投球動作中の上腕加速度に下肢・体幹運動が及ぼす影響について明らかにすることである．高校野球投手11名を対象として，ポータブル3次元動作解析装置（noraxon社製，マイオモー ション）を用いて投球動作の解析を行った．その結果，体幹回旋角速度は投球側上腕の合成加速度と相関した.先行研究では体幹回旋角速度はボール速度と相関しており，このことから合成加速度を分析指標として用いる妥当性が示された．次に投球時の下肢・体幹の関節角度範囲を独立変数とし，投球側上腕の合成加速度を従属 変数とした重回帰分析では，股関節回旋角度範囲と，胸部回旋角度範囲が合成加速度と有意に関連した．以上の結果から下肢・体幹から起こる運動連鎖が投球側上腕の合成加速度へ及ぼす影響が明らかとなった．ポータブル3 次元動作解析装置による投球の動作解析は，指導者の目視による確認やビデオフィードバックによる指 導効果をより確実にし，投球の効率改善と投球障害の予防につながる可能性がある.</p>
+
+    </div>
+</div>
+<div class="level-item">
+    <p class="contributer info">
+        Posted by  
+        1988 @Sep 24, 2022
+    </p>
+</div><div id="social-media-share" class="has-text-centered">
+	<p><i>Sharing is caring!</i></p>
+	<br>
+	
+	<div class="share-buttons">
+	    <a  href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fs_stage.github.io%2f%25E3%2582%25A6%25E3%2583%25AB%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25A6%25E3%2583%25A0%25E3%2583%25A2%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%2f%25E6%258A%2595%25E7%2590%2583%25E5%258B%2595%25E4%25BD%259C%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B3%25E6%25AC%25A1%25E5%2585%2583%25E5%258B%2595%25E4%25BD%259C%25E8%25A7%25A3%25E6%259E%2590%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%25E9%2581%258B%25E5%258B%2595%25E5%25AD%25A6%25E7%259A%2584%25E6%25A4%259C%25E8%25A8%258E%2f"
+	        onclick="socialMediaPopUp(this.href, '', 500, 500); return false;"
+	        title="Share on Facebook. Opens in a new window.">
+	        <img src=/img/icons/45px/facebook.png>
+	    </a>
+
+	    <a  href="https://twitter.com/intent/tweet?text=%e6%8a%95%e7%90%83%e5%8b%95%e4%bd%9c%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b3%e6%ac%a1%e5%85%83%e5%8b%95%e4%bd%9c%e8%a7%a3%e6%9e%90%e3%81%ab%e3%82%88%e3%82%8b%e9%81%8b%e5%8b%95%e5%ad%a6%e7%9a%84%e6%a4%9c%e8%a8%8e&url=https%3a%2f%2fs_stage.github.io%2f%25E3%2582%25A6%25E3%2583%25AB%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25A6%25E3%2583%25A0%25E3%2583%25A2%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%2f%25E6%258A%2595%25E7%2590%2583%25E5%258B%2595%25E4%25BD%259C%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B3%25E6%25AC%25A1%25E5%2585%2583%25E5%258B%2595%25E4%25BD%259C%25E8%25A7%25A3%25E6%259E%2590%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%25E9%2581%258B%25E5%258B%2595%25E5%25AD%25A6%25E7%259A%2584%25E6%25A4%259C%25E8%25A8%258E%2f"
+	        onclick="socialMediaPopUp(this.href, '', 500, 500); return false;"
+	        title="Share on Twitter. Opens in a new window." >
+	        <img src=/img/icons/45px/twitter.png>
+	    </a>
+
+		<a  href="http://www.reddit.com/submit?url=https%3a%2f%2fs_stage.github.io%2f%25E3%2582%25A6%25E3%2583%25AB%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25A6%25E3%2583%25A0%25E3%2583%25A2%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%2f%25E6%258A%2595%25E7%2590%2583%25E5%258B%2595%25E4%25BD%259C%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B3%25E6%25AC%25A1%25E5%2585%2583%25E5%258B%2595%25E4%25BD%259C%25E8%25A7%25A3%25E6%259E%2590%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%25E9%2581%258B%25E5%258B%2595%25E5%25AD%25A6%25E7%259A%2584%25E6%25A4%259C%25E8%25A8%258E%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Reddit. Opens in a new window." >
+	        <img src=/img/icons/45px/reddit.png>
+	    </a>
+
+	    <a  href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fs_stage.github.io%2f%25E3%2582%25A6%25E3%2583%25AB%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25A6%25E3%2583%25A0%25E3%2583%25A2%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%2f%25E6%258A%2595%25E7%2590%2583%25E5%258B%2595%25E4%25BD%259C%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B3%25E6%25AC%25A1%25E5%2585%2583%25E5%258B%2595%25E4%25BD%259C%25E8%25A7%25A3%25E6%259E%2590%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%25E9%2581%258B%25E5%258B%2595%25E5%25AD%25A6%25E7%259A%2584%25E6%25A4%259C%25E8%25A8%258E%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Pinterest. Opens in a new window." >
+	        <img src=/img/icons/45px/pinterest.png>
+	    </a>
+
+	    <a  href="http://www.tumblr.com/share/link?url=https%3a%2f%2fs_stage.github.io%2f%25E3%2582%25A6%25E3%2583%25AB%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25A6%25E3%2583%25A0%25E3%2583%25A2%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%2f%25E6%258A%2595%25E7%2590%2583%25E5%258B%2595%25E4%25BD%259C%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B3%25E6%25AC%25A1%25E5%2585%2583%25E5%258B%2595%25E4%25BD%259C%25E8%25A7%25A3%25E6%259E%2590%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%25E9%2581%258B%25E5%258B%2595%25E5%25AD%25A6%25E7%259A%2584%25E6%25A4%259C%25E8%25A8%258E%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Tumblr. Opens in a new window." >
+	        <img src=/img/icons/45px/tumblr.png>
+	    </a>
+
+		<a  href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fs_stage.github.io%2f%25E3%2582%25A6%25E3%2583%25AB%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25A6%25E3%2583%25A0%25E3%2583%25A2%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%2f%25E6%258A%2595%25E7%2590%2583%25E5%258B%2595%25E4%25BD%259C%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B3%25E6%25AC%25A1%25E5%2585%2583%25E5%258B%2595%25E4%25BD%259C%25E8%25A7%25A3%25E6%259E%2590%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%25E9%2581%258B%25E5%258B%2595%25E5%25AD%25A6%25E7%259A%2584%25E6%25A4%259C%25E8%25A8%258E%2f
+			&title=%e6%8a%95%e7%90%83%e5%8b%95%e4%bd%9c%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b3%e6%ac%a1%e5%85%83%e5%8b%95%e4%bd%9c%e8%a7%a3%e6%9e%90%e3%81%ab%e3%82%88%e3%82%8b%e9%81%8b%e5%8b%95%e5%ad%a6%e7%9a%84%e6%a4%9c%e8%a8%8e&summary=%e6%9c%ac%e7%a0%94%e7%a9%b6%e3%81%ae%e7%9b%ae%e7%9a%84%e3%81%af%ef%bc%8c%e9%ab%98%e6%a0%a1%e9%87%8e%e7%90%83%e6%8a%95%e6%89%8b%e3%81%ae%e6%8a%95%e7%90%83%e5%8b%95%e4%bd%9c%e4%b8%ad%e3%81%ae%e4%b8%8a%e8%85%95%e5%8a%a0%e9%80%9f%e5%ba%a6%e3%81%ab%e4%b8%8b%e8%82%a2%e3%83%bb%e4%bd%93%e5%b9%b9%e9%81%8b%e5%8b%95%e3%81%8c%e5%8f%8a%e3%81%bc%e3%81%99%e5%bd%b1%e9%9f%bf%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e6%98%8e%e3%82%89%e3%81%8b%e3%81%ab%e3%81%99%e3%82%8b%e3%81%93%e3%81%a8%e3%81%a7%e3%81%82%e3%82%8b%ef%bc%8e%e9%ab%98%e6%a0%a1%e9%87%8e%e7%90%83%e6%8a%95%e6%89%8b11%e5%90%8d%e3%82%92%e5%af%be%e8%b1%a1%e3%81%a8%e3%81%97%e3%81%a6%ef%bc%8c%e3%83%9d%e3%83%bc%e3%82%bf%e3%83%96%e3%83%ab3%e6%ac%a1%e5%85%83%e5%8b%95%e4%bd%9c%e8%a7%a3%e6%9e%90%e8%a3%85%e7%bd%ae%ef%bc%88noraxon%e7%a4%be%e8%a3%bd%ef%bc%8c%e3%83%9e%e3%82%a4%e3%82%aa%e3%83%a2%e3%83%bc%20%e3%82%b7%e3%83%a7%e3%83%b3%ef%bc%89%e3%82%92%e7%94%a8%e3%81%84%e3%81%a6%e6%8a%95%e7%90%83%e5%8b%95%e4%bd%9c%e3%81%ae%e8%a7%a3%e6%9e%90%e3%82%92%e8%a1%8c%e3%81%a3%e3%81%9f%ef%bc%8e%e3%81%9d%e3%81%ae%e7%b5%90%e6%9e%9c%ef%bc%8c%e4%bd%93%e5%b9%b9%e5%9b%9e%e6%97%8b%e8%a7%92%e9%80%9f%e5%ba%a6%e3%81%af%e6%8a%95%e7%90%83%e5%81%b4%e4%b8%8a%e8%85%95%e3%81%ae%e5%90%88%e6%88%90%e5%8a%a0%e9%80%9f%e5%ba%a6%e3%81%a8%e7%9b%b8%e9%96%a2%e3%81%97%e3%81%9f.%e5%85%88%e8%a1%8c%e7%a0%94%e7%a9%b6%e3%81%a7%e3%81%af%e4%bd%93%e5%b9%b9%e5%9b%9e%e6%97%8b%e8%a7%92%e9%80%9f%e5%ba%a6%e3%81%af%e3%83%9c%e3%83%bc%e3%83%ab%e9%80%9f%e5%ba%a6%e3%81%a8%e7%9b%b8%e9%96%a2%e3%81%97%e3%81%a6%e3%81%8a%e3%82%8a%ef%bc%8c%e3%81%93%e3%81%ae%e3%81%93%e3%81%a8%e3%81%8b%e3%82%89%e5%90%88%e6%88%90%e5%8a%a0%e9%80%9f%e5%ba%a6%e3%82%92%e5%88%86%e6%9e%90%e6%8c%87%e6%a8%99%e3%81%a8%e3%81%97%e3%81%a6%e7%94%a8%e3%81%84%e3%82%8b%e5%a6%a5%e5%bd%93%e6%80%a7%e3%81%8c%e7%a4%ba%e3%81%95%e3%82%8c%e3%81%9f%ef%bc%8e%e6%ac%a1%e3%81%ab%e6%8a%95%e7%90%83%e6%99%82%e3%81%ae%e4%b8%8b%e8%82%a2%e3%83%bb%e4%bd%93%e5%b9%b9%e3%81%ae%e9%96%a2%e7%af%80%e8%a7%92%e5%ba%a6%e7%af%84%e5%9b%b2%e3%82%92%e7%8b%ac%e7%ab%8b%e5%a4%89%e6%95%b0%e3%81%a8%e3%81%97%ef%bc%8c%e6%8a%95%e7%90%83%e5%81%b4%e4%b8%8a%e8%85%95%e3%81%ae%e5%90%88%e6%88%90%e5%8a%a0%e9%80%9f%e5%ba%a6%e3%82%92%e5%be%93%e5%b1%9e%20%e5%a4%89%e6%95%b0%e3%81%a8%e3%81%97%e3%81%9f%e9%87%8d%e5%9b%9e%e5%b8%b0%e5%88%86%e6%9e%90%e3%81%a7%e3%81%af%ef%bc%8c%e8%82%a1%e9%96%a2%e7%af%80%e5%9b%9e%e6%97%8b%e8%a7%92%e5%ba%a6%e7%af%84%e5%9b%b2%e3%81%a8%ef%bc%8c%e8%83%b8%e9%83%a8%e5%9b%9e%e6%97%8b%e8%a7%92%e5%ba%a6%e7%af%84%e5%9b%b2%e3%81%8c%e5%90%88%e6%88%90%e5%8a%a0%e9%80%9f%e5%ba%a6%e3%81%a8%e6%9c%89%e6%84%8f%e3%81%ab%e9%96%a2%e9%80%a3%e3%81%97%e3%81%9f%ef%bc%8e%e4%bb%a5%e4%b8%8a%e3%81%ae%e7%b5%90%e6%9e%9c%e3%81%8b%e3%82%89%e4%b8%8b%e8%82%a2%e3%83%bb%e4%bd%93%e5%b9%b9%e3%81%8b%e3%82%89%e8%b5%b7%e3%81%93%e3%82%8b%e9%81%8b%e5%8b%95%e9%80%a3%e9%8e%96%e3%81%8c%e6%8a%95%e7%90%83%e5%81%b4%e4%b8%8a%e8%85%95%e3%81%ae%e5%90%88%e6%88%90%e5%8a%a0%e9%80%9f%e5%ba%a6%e3%81%b8%e5%8f%8a%e3%81%bc%e3%81%99%e5%bd%b1%e9%9f%bf%e3%81%8c%e6%98%8e%e3%82%89%e3%81%8b%e3%81%a8%e3%81%aa%e3%81%a3%e3%81%9f%ef%bc%8e%e3%83%9d%e3%83%bc%e3%82%bf%e3%83%96%e3%83%ab3%20%e6%ac%a1%e5%85%83%e5%8b%95%e4%bd%9c%e8%a7%a3%e6%9e%90%e8%a3%85%e7%bd%ae%e3%81%ab%e3%82%88%e3%82%8b%e6%8a%95%e7%90%83%e3%81%ae%e5%8b%95%e4%bd%9c%e8%a7%a3%e6%9e%90%e3%81%af%ef%bc%8c%e6%8c%87%e5%b0%8e%e8%80%85%e3%81%ae%e7%9b%ae%e8%a6%96%e3%81%ab%e3%82%88%e3%82%8b%e7%a2%ba%e8%aa%8d%e3%82%84%e3%83%93%e3%83%87%e3%82%aa%e3%83%95%e3%82%a3%e3%83%bc%e3%83%89%e3%83%90%e3%83%83%e3%82%af%e3%81%ab%e3%82%88%e3%82%8b%e6%8c%87%20%e5%b0%8e%e5%8a%b9%e6%9e%9c%e3%82%92%e3%82%88%e3%82%8a%e7%a2%ba%e5%ae%9f%e3%81%ab%e3%81%97%ef%bc%8c%e6%8a%95%e7%90%83%e3%81%ae%e5%8a%b9%e7%8e%87%e6%94%b9%e5%96%84%e3%81%a8%e6%8a%95%e7%90%83%e9%9a%9c%e5%ae%b3%e3%81%ae%e4%ba%88%e9%98%b2%e3%81%ab%e3%81%a4%e3%81%aa%e3%81%8c%e3%82%8b%e5%8f%af%e8%83%bd%e6%80%a7%e3%81%8c%e3%81%82%e3%82%8b.&source=rafed123.github.io"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on LinkedIn. Opens in a new window." >
+	        <img src=/img/icons/45px/linkedin.png>
+	    </a>
+
+	    <a  href="mailto:?subject=%e6%8a%95%e7%90%83%e5%8b%95%e4%bd%9c%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b3%e6%ac%a1%e5%85%83%e5%8b%95%e4%bd%9c%e8%a7%a3%e6%9e%90%e3%81%ab%e3%82%88%e3%82%8b%e9%81%8b%e5%8b%95%e5%ad%a6%e7%9a%84%e6%a4%9c%e8%a8%8e&amp;body=Check out this site https%3a%2f%2fs_stage.github.io%2f%25E3%2582%25A6%25E3%2583%25AB%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25A6%25E3%2583%25A0%25E3%2583%25A2%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%2f%25E6%258A%2595%25E7%2590%2583%25E5%258B%2595%25E4%25BD%259C%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B3%25E6%25AC%25A1%25E5%2585%2583%25E5%258B%2595%25E4%25BD%259C%25E8%25A7%25A3%25E6%259E%2590%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%25E9%2581%258B%25E5%258B%2595%25E5%25AD%25A6%25E7%259A%2584%25E6%25A4%259C%25E8%25A8%258E%2f"
+	        title="Share via Email. Opens in a new window." >
+	        <img src=/img/icons/45px/mail.png>
+	    </a>
+	</div>
+</div>
+
+
+<br>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = '';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+        </div>
+    </div>
+
+<footer class="footer has-background-dark">
+    <div class="content has-text-centered has-text-white">
+        <p>
+            © 2020 Ramium. Powered by
+            <a class="has-text-light" href="https://github.com/gohugoio/hugo" target="_blank">
+            Hugo</a>. Theme
+            <a class="has-text-light" href="https://github.com/rafed123/ramium/" target="_blank">
+                Ramium.
+            </a>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>
