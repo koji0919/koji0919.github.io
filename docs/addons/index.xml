@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Addons on (タイトル募集中)</title>
-    <link>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/addons/</link>
+    <link>https://koji0919.github.io/addons/</link>
     <description>Recent content in Addons on (タイトル募集中)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 06 Apr 2020 02:07:31 +0600</lastBuildDate><atom:link href="https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/addons/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Apr 2020 02:07:31 +0600</lastBuildDate><atom:link href="https://koji0919.github.io/addons/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>このサイトについて</title>
-      <link>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/author/</link>
+      <link>https://koji0919.github.io/author/</link>
       <pubDate>Mon, 06 Apr 2020 02:07:31 +0600</pubDate>
       
-      <guid>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/author/</guid>
+      <guid>https://koji0919.github.io/author/</guid>
       <description>v0.0 本サイトの使い方 サイトは投稿という形式でページを管理しています。投稿にはweb上で閲覧可能な文献について、そのリンクと概要を掲載しています。
 投稿の検索手段には以下の3種類があります。
 製品セクション検索 タグ検索 全文検索(PCのみ対応) 検索結果の投稿一覧にはタイトルや著者、投稿の内容が部分表示されています。見たい投稿をクリックすることで、全文を閲覧できるほか、原本のpdfにアクセスできます。pdfリンクを他者に共有することで、web上にある原本へアクセスいただけます。
@@ -25,19 +25,19 @@ yasuda_kodai@sakaimed.co.jp</description>
     
     <item>
       <title>Admin Panel</title>
-      <link>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/admin/</link>
+      <link>https://koji0919.github.io/admin/</link>
       <pubDate>Mon, 06 Apr 2020 02:07:30 +0600</pubDate>
       
-      <guid>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/admin/</guid>
+      <guid>https://koji0919.github.io/admin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>製品</title>
-      <link>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/sections/</link>
+      <link>https://koji0919.github.io/sections/</link>
       <pubDate>Mon, 06 Apr 2020 02:07:30 +0600</pubDate>
       
-      <guid>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/sections/</guid>
+      <guid>https://koji0919.github.io/sections/</guid>
       <description></description>
     </item>
     
