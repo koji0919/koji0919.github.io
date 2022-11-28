@@ -11,8 +11,8 @@ sleep 0.1
 
 echo -e "\033[0;32mCopy WEB data...\033[0m"
 rm -rf ../docs/*
-mkdir ../docs/043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89
-cp -R ./public/* ../docs/043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89/
+mkdir ../docs/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781
+cp -R ./public/* ../docs/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/
 cp -R ./4password/* ../docs/
 sleep 0.1
 
