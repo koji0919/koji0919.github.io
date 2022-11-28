@@ -11,7 +11,9 @@ sleep 0.1
 
 echo -e "\033[0;32mCopy WEB data...\033[0m"
 rm -rf ../docs/*
-cp -R ./public/* ../docs
+mkdir ../docs/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781
+cp -R ./public/* ../docs/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781
+cp -R ./4password/* ../docs
 sleep 0.1
 
 echo -e "\033[0;32mNow Uploading...\033[0m"

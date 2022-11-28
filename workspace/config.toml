@@ -1,5 +1,6 @@
-baseurl = 'https://koji0919.github.io/'
-#CanonifyURLs=true
+baseurl = 'https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/'
+CanonifyURLs=true
+relativeURLs=true
 
 languageCode = 'ja-jp'
 theme = "ramium"
