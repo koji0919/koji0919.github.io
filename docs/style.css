@@ -36,9 +36,9 @@ input {
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  color: rgb(200, 210, 240);
+  color: rgb(186, 245, 140);
   -webkit-text-fill-color: rgb(200, 210, 240);
-  background-color: rgb(10, 20, 40);
+  background-color: rgb(226, 144, 175);
   font-size: 40px;
 }
 input::placeholder {
