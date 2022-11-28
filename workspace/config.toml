@@ -5,7 +5,7 @@ relativeURLs=true
 languageCode = 'ja-jp'
 theme = "ramium"
 
-title = "文献まとめβ"
+title = "URL共有禁止"
 disqusShortname = ""
 googleAnalytics = ""
 summaryLength = 140
