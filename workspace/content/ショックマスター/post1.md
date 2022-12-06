@@ -1,5 +1,5 @@
 ---
-title: "慢性脳卒中患者の上肢痙縮に対する拡散型ショックウェーブ療法の効果　－前向き単盲検ランダム化比較試験－"
+title: "Effect of Radial Shock Wave Therapy on Spasticity of the Upper Limb in Patients With Chronic Stroke"
 contributer: 1984
 date: 2022-11-29T00:48:43+09:00
 auther: Tsung-Ying Li, et al.
