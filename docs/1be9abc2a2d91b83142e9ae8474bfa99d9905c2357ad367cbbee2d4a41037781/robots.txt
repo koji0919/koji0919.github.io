@@ -1,8 +1,8 @@
 User-agent: *
 
-Disallow: /%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/post3/
+Disallow: /tags/mas/
 
-Disallow: /tags/rct/
+Disallow: /%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/post5/
 
 Disallow: /tags/rewst/
 
@@ -10,7 +10,15 @@ Disallow: /tags/
 
 Disallow: /%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/
 
-Disallow: /tags/mas/
+Disallow: /tags/%E7%97%99%E7%B8%AE/
+
+Disallow: /%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/post4/
+
+Disallow: /tags/resw/
+
+Disallow: /%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/post3/
+
+Disallow: /tags/rct/
 
 Disallow: /%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/post2/
 
@@ -29,8 +37,6 @@ Disallow: /tags/%E8%82%A1%E9%96%A2%E7%AF%80/
 Disallow: /%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/post1/
 
 Disallow: /tags/fma/
-
-Disallow: /tags/%E7%97%99%E7%B8%AE/
 
 Disallow: /tags/a/
 
