@@ -24,3 +24,4 @@ git push
 sleep 0.1
 
 echo -e "\033[0;32mDONE!\033[0m"
+
