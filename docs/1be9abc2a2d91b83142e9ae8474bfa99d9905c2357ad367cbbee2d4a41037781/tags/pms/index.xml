@@ -6,7 +6,28 @@
     <description>Recent content in PMS on URL共有禁止</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 24 Sep 2022 17:51:16 +0900</lastBuildDate><atom:link href="https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/tags/pms/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 09:42:05 +0900</lastBuildDate><atom:link href="https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/tags/pms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effects of Repetitive Peripheral Magnetic Stimulation through Hand Splint Materials on Induced Movement and Corticospinal Excitability in Healthy Participants</title>
+      <link>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/%E3%83%91%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC/%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88%E3%81%AE%E4%B8%8A/</link>
+      <pubDate>Thu, 05 Jan 2023 09:42:05 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/%E3%83%91%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC/%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88%E3%81%AE%E4%B8%8A/</guid>
+      <description>サンプル
+【コメント】</description>
+    </item>
+    
+    <item>
+      <title>磁気刺激による手関節背屈運動に関する研究</title>
+      <link>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/%E3%83%91%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC/%E6%89%8B%E8%83%8C%E3%81%B8%E3%81%AE%E6%99%82%E6%9C%9F%E5%88%BA%E6%BF%80/</link>
+      <pubDate>Wed, 04 Jan 2023 17:34:35 +0900</pubDate>
+      
+      <guid>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/%E3%83%91%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC/%E6%89%8B%E8%83%8C%E3%81%B8%E3%81%AE%E6%99%82%E6%9C%9F%E5%88%BA%E6%BF%80/</guid>
+      <description>末梢への磁気刺激(PMS)は1T以下の比較的低強度なパルス磁場を用いて筋収縮を起こします。PMSの利点の１つは電極パッドを必要とせず、衣類の上等からでも使用できることです。もう1つの利点は極パッド式と違い、皮膚の侵害受容器を刺激しないため、疼痛を抑えることができることです。以上の利点にも関わらずPMSの普及が普及がなされなかったのは、従来の磁気刺激装置がTMS用に開発されており、高電圧を必要としていたからです。つまり、本体は大きく、重く、そして内部のコイルは連続使用によって発熱するため、長時間の使用が困難でした。この問題に対して著者らは、特製のコイルと冷却装置を備えた、末梢用の磁気刺激装置（PL）を開発しました。
+実験ではこの磁気刺激装置を臨床応用するための評価試験を行っています。健常成人5名の撓側手根伸筋に刺激を与え、その際の手関節の背屈角度を評価します。刺激は刺激強度、刺激周波数、刺激時間の3つのパラメータを組み合わせた60通りあり、これらがランダムに被験者に与えられました。結果からは刺激強度が低い内は刺激周波数や時間によらず背屈運動が小さかったが、一定の刺激強度以上では周波数や刺激時間によってそれぞれの背屈運動に有意な差が見られた。これは刺激周波数によって単収縮と強縮の切り替わりが起きていることに起因すると考えられる。
+【コメント】 PLの開発元であるIFGの八島さんおよび、東北大の出江先生らによる共同研究です。臨床応用に向けたPLの各種パラメータの検証がなされており、背屈運動が初めて起こる時の磁気強度の2倍の強度で3かつ30Hzで狙撃すすれば十分な背屈運動を誘発できる。との著者のコメントもあります。また、共著者の浅尾章彦先生（福島県立医科大学）は昨年9月のPL勉強会にも参加されており、スプリント材の上からの磁気刺激についての発表をされています。</description>
+    </item>
+    
     <item>
       <title>高頻度反復末梢神経磁気刺激装置の開発と臨床応用</title>
       <link>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/%E3%83%91%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC/%E9%AB%98%E9%A0%BB%E5%BA%A6%E5%8F%8D%E5%BE%A9%E6%9C%AB%E6%A2%A2%E7%A5%9E%E7%B5%8C%E7%A3%81%E6%B0%97%E5%88%BA%E6%BF%80%E8%A3%85%E7%BD%AE%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8%E8%87%A8%E5%BA%8A%E5%BF%9C%E7%94%A8/</link>
