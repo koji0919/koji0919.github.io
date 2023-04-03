@@ -6,7 +6,11 @@
     <description>Recent content in 体幹 on URL共有禁止</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 24 Sep 2022 22:35:43 +0900</lastBuildDate><atom:link href="https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/tags/%E4%BD%93%E5%B9%B9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Sep 2022 22:35:43 +0900</lastBuildDate>
+    
+	<atom:link href="https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/tags/%E4%BD%93%E5%B9%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>投球動作における3次元動作解析による運動学的検討</title>
       <link>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/%E6%8A%95%E7%90%83%E5%8B%95%E4%BD%9C%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B3%E6%AC%A1%E5%85%83%E5%8B%95%E4%BD%9C%E8%A7%A3%E6%9E%90%E3%81%AB%E3%82%88%E3%82%8B%E9%81%8B%E5%8B%95%E5%AD%A6%E7%9A%84%E6%A4%9C%E8%A8%8E/</link>
@@ -14,7 +18,7 @@
       
       <guid>https://koji0919.github.io/1be9abc2a2d91b83142e9ae8474bfa99d9905c2357ad367cbbee2d4a41037781/%E3%82%A6%E3%83%AB%E3%83%86%E3%82%A3%E3%82%A6%E3%83%A0%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/%E6%8A%95%E7%90%83%E5%8B%95%E4%BD%9C%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B3%E6%AC%A1%E5%85%83%E5%8B%95%E4%BD%9C%E8%A7%A3%E6%9E%90%E3%81%AB%E3%82%88%E3%82%8B%E9%81%8B%E5%8B%95%E5%AD%A6%E7%9A%84%E6%A4%9C%E8%A8%8E/</guid>
       <description>高校野球投手の投球動作について、マイオモーションで3次元動作計測を行った文献です。踏み出し側の足から体幹、投球側上腕にかけてセンサによる計測を行い、投球モーションを解析しています。結果からは腰部回旋と股関節の外転角速度は投球側上腕の合成加速度と相関があり、投球側上腕の合成加速度の分析は下肢体幹からの運動伝達を表す指標として有用であるとされました。また、股関節の回旋角度変動は小さい(安定している)程、胸部の回旋角速度は大きい程上腕の合成加速度が大きくなっていることから、踏み出し脚の股関節の安定性を保ち、胸腰部が十分に素早く回旋することが効率的な投球動作となり、ひいては投球障害の予防につながるとされました。
-【コメント】野球の投球動作の解析を行った文献です。マイオモーションによる計測の制約の少なさ、簡便さをアピールしており、スポーツパフォーマンス計測の良いサンプルです。7chのセンサを下肢から上肢にかけて変則的に装着しており、「必要な箇所だけ計測できる」というマイオモーションの強みがでていると思われます。</description>
+ 【コメント】野球の投球動作の解析を行った文献です。マイオモーションによる計測の制約の少なさ、簡便さをアピールしており、スポーツパフォーマンス計測の良いサンプルです。7chのセンサを下肢から上肢にかけて変則的に装着しており、「必要な箇所だけ計測できる」というマイオモーションの強みがでていると思われます。</description>
     </item>
     
   </channel>
